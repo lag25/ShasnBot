@@ -1,0 +1,8 @@
+[2025-06-18 15:03:23] [INFO] Building QA chain with Mistral
+[2025-06-18 15:03:23] [INFO] Running query: What is gerrymandering in shasn
+[2025-06-18 15:06:47] [INFO] Building QA chain with Mistral
+[2025-06-18 15:06:48] [INFO] Running query: What is gerrymandering in shasn
+[2025-06-18 15:06:59] [INFO] Query took 12.491809844970703 seconds to execute
+[2025-06-18 15:08:05] [INFO] Building QA chain with Mistral
+[2025-06-18 15:08:05] [INFO] Running query: What is the dynamo
+[2025-06-18 15:08:57] [INFO] Query took 52.67580509185791 seconds to execute

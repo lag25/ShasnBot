@@ -1,0 +1,111 @@
+[2025-06-18 15:25:33] [INFO] Building QA chain with Mistral
+[2025-06-18 15:26:23] [INFO] Building QA chain with Mistral
+[2025-06-18 15:27:31] [INFO] Building QA chain with Mistral
+[2025-06-18 15:27:31] [INFO] Running query: What is the concept of Gerrymandering 
+[2025-06-18 15:30:24] [INFO] Building QA chain with Mistral
+[2025-06-18 15:30:24] [INFO] Running query: Do you think I will be good at this game 
+[2025-06-18 15:31:31] [INFO] Building QA chain with Mistral
+[2025-06-18 15:31:31] [INFO] Running query: What are conspiracy cards
+[2025-06-18 15:36:16] [INFO] Building QA chain with Mistral
+[2025-06-18 15:36:16] [INFO] Running query: Who is the supremo ? 
+[2025-06-18 17:18:28] [INFO] Building QA chain with Mistral
+[2025-06-18 17:18:28] [INFO] Running query: Who created Shasn 
+[2025-06-18 17:21:48] [INFO] Building QA chain with Mistral
+[2025-06-18 17:21:48] [INFO] Running query: import streamlit as st
+
+# --- Streamlit UI Setup ---
+st.set_page_config(page_title="Rulebook QA Chatbot", layout="wide")
+st.title("📘 Rulebook Chat Assistant")
+
+# --- Initialize Session State ---
+if "chat_history" not in st.session_state:
+    st.session_state.chat_history = []
+
+# --- Modular: Define a placeholder response function ---
+def get_rag_response(query: str) -> tuple[str, list[dict]]:
+    """
+    Replace this with your actual RAG call.
+    Returns:
+        - answer: string
+        - retrieved_chunks: list of dicts with keys: page, section, content
+    """
+    dummy_answer = f"This is a placeholder answer to: {query}"
+    dummy_chunks = [
+        {"page": 12, "section": "Substitutions", "content": "Each team is allowed up to five substitutions..."},
+        {"page": 45, "section": "VAR Protocol", "content": "The referee may consult VAR in cases of clear error..."}
+    ]
+    return dummy_answer, dummy_chunks
+
+# --- Display Chat History ---
+for user_q, bot_a in st.session_state.chat_history:
+    st.chat_message("user").markdown(user_q)
+    st.chat_message("assistant").markdown(bot_a)
+
+# --- Chat Input ---
+query = st.chat_input("Ask something about the rulebook...")
+
+if query:
+    st.chat_message("user").markdown(query)
+    with st.spinner("Answering..."):
+        response_text, retrieved_chunks = get_rag_response(query)
+
+    st.chat_message("assistant").markdown(response_text)
+    st.session_state.chat_history.append((query, response_text))
+
+    # --- Show Retrieved Chunks ---
+    with st.expander("📖 Retrieved Rulebook Context"):
+        for i, chunk in enumerate(retrieved_chunks):
+            st.markdown(f"**Chunk {i+1}** — Page {chunk.get('page', 'N/A')}, Section: {chunk.get('section', 'N/A')}")
+            st.code(chunk.get("content", ""), language="markdown")
+
+
+could you make changes for the pdf for this. for now dont do the chunk thing lets just add some sample pdf and see how it looks 
+[2025-06-18 17:27:14] [INFO] Building QA chain with Mistral
+[2025-06-18 17:27:17] [INFO] Running query: Who is the supremo in Shasn
+[2025-06-18 17:33:01] [INFO] Building QA chain with Mistral
+[2025-06-18 17:33:02] [INFO] Running query: What are the different Ideologues 
+[2025-06-18 17:37:20] [INFO] Building QA chain with Mistral
+[2025-06-18 17:37:20] [INFO] Running query: What are the different Ideologues in Shasn and what are their specialities. 
+[2025-06-18 17:48:16] [INFO] Building QA chain with Mistral
+[2025-06-18 17:48:17] [INFO] Running query: What are the different ideologues in shasn and what are their quirks 
+[2025-06-18 18:09:58] [INFO] Building QA chain with Mistral
+[2025-06-18 18:09:59] [INFO] Running query: What are volatile areas ?
+[2025-06-18 18:11:05] [INFO] Query took 66.53151679039001 seconds to execute
+[2025-06-18 18:14:05] [INFO] Building QA chain with Mistral
+[2025-06-18 18:14:06] [INFO] Running query: What are volatile areas ?
+[2025-06-18 18:14:24] [INFO] Query took 18.154279232025146 seconds to execute
+[2025-06-18 18:24:51] [INFO] Building QA chain with Mistral
+[2025-06-18 18:24:51] [INFO] Running query: What are volatile areas ?
+[2025-06-18 18:25:56] [INFO] Query took 65.62007164955139 seconds to execute
+[2025-06-18 18:43:16] [INFO] Building QA chain with Mistral
+[2025-06-18 18:45:17] [INFO] Building QA chain with Mistral
+[2025-06-18 18:45:17] [INFO] Building QA chain with Mistral
+[2025-06-18 18:45:17] [INFO] Running query: What are volatile areas ? 
+[2025-06-18 18:48:04] [INFO] Building QA chain with Mistral
+[2025-06-18 18:48:04] [INFO] Running query: What are volatile areas ?
+[2025-06-18 18:50:22] [INFO] Building QA chain with Mistral
+[2025-06-18 18:50:22] [INFO] Running query: What are volatile areas 
+[2025-06-18 18:51:44] [INFO] Building QA chain with Mistral
+[2025-06-18 18:51:44] [INFO] Running query: What are volatile areas ? 
+[2025-06-18 19:06:56] [INFO] Building QA chain with Mistral
+[2025-06-18 19:06:56] [INFO] Running query: What are volatile areas
+[2025-06-18 19:09:40] [INFO] Building QA chain with Mistral
+[2025-06-18 19:09:40] [INFO] Running query: What are Volatile areas ? 
+[2025-06-18 19:33:32] [INFO] Building QA chain with Mistral
+[2025-06-18 19:33:33] [INFO] Running query: What are volatile areas 
+[2025-06-18 19:38:39] [INFO] Building QA chain with Mistral
+[2025-06-18 19:38:40] [INFO] Running query: What is a volatile area 
+[2025-06-18 19:42:50] [INFO] Building QA chain with Mistral
+[2025-06-18 19:42:51] [INFO] Running query: What's the order in which the game is played ? 
+[2025-06-18 20:02:05] [INFO] Building QA chain with Mistral
+[2025-06-18 20:02:05] [INFO] Running query: What is the order of playing this game 
+[2025-06-18 20:05:13] [INFO] Building QA chain with Mistral
+[2025-06-18 20:05:14] [INFO] Running query: Whats the order of playing this game 
+[2025-06-18 20:15:10] [INFO] Building QA chain with Mistral
+[2025-06-18 20:15:11] [INFO] Running query: What is a volatile area
+[2025-06-18 20:38:23] [INFO] Building QA chain with Mistral
+[2025-06-18 20:38:31] [INFO] Running query: What are volatile areas ? 
+[2025-06-18 20:40:16] [INFO] Building QA chain with Mistral
+[2025-06-18 20:40:16] [INFO] Running query: What are the different ideologues
+[2025-06-18 20:44:29] [INFO] Building QA chain with Mistral
+[2025-06-18 20:44:29] [INFO] Running query: In what order is the game played ?
