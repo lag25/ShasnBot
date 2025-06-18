@@ -10,13 +10,10 @@ from .loader import create_docs
 
 model_kwargs = {"device": "cpu"}
 encode_kwargs = {"normalize_embeddings": True}
-embeddings = HuggingFaceEmbeddings(
-        model_name=MODEL_NAME, model_kwargs=model_kwargs, encode_kwargs=encode_kwargs
-    )
 
 
 
-def build_chroma_index(chunks: list[Document]):
+def build_chroma_index(chunks: list[Document],embeddings):
     '''Builds an instance of Chroma VectorDB'''
     model_name = "sentence-transformers/all-mpnet-base-v2"
     model_kwargs = {"device": "cpu"}
@@ -31,7 +28,7 @@ def build_chroma_index(chunks: list[Document]):
     #print(f"Saved {len(chunks)} chunks to {CHROMA_FILE}")
     return vectorstore
 
-def build_faiss_index(docs: list[Document]):
+def build_faiss_index(docs: list[Document],embeddings):
     '''Builds an instance of FAISS VectorDB'''
     model_name = "sentence-transformers/all-mpnet-base-v2"
     embeddings = HuggingFaceEmbeddings(model_name=model_name)
@@ -51,7 +48,7 @@ def check_for_vectorstore(db_name:str):
     else:
         raise FileNotFoundError(f"No ChromaDB found at {CHROMA_PATH}. Please build an instance")
 
-def load_vectorstore(db_name:str='chroma'):
+def load_vectorstore(embeddings,db_name:str='chroma'):
     '''Returns the instance of a vectorDB (FAISS or Chroma for now)'''
     if(db_name == "chroma"):
         return Chroma(persist_directory=os.path.join(INDEX_PATH,'chromaDB'), embedding_function=embeddings)

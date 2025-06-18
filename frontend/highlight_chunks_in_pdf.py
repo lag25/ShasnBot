@@ -26,7 +26,6 @@ def highlight_chunks_in_pdf(pdf_path, chunks, output_path="highlighted_rulebook.
             # --- Fallback 1: first 100 chars ---
             if not matches:
                 short_text = clean_chunk[:100]
-                print(short_text)
                 matches = page.search_for(short_text)
                 if matches:
                     print(f"✅ Found partial match (first 100 chars) on page {page_num}")

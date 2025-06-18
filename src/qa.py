@@ -1,27 +1,31 @@
 import os
 import time
 
+from langchain.chains.retrieval_qa.base import RetrievalQA
+from langchain_community.llms import Ollama
+from .vectorstore import load_vectorstore, check_for_vectorstore
+
 from .prompt import qa_prompt
 from .utils import setup_logger
+
 
 logger = setup_logger(log_to_file=True)
 
 
-def build_qa_chain(prompt=qa_prompt, model_name="Mistral", db_name='chroma'):
+def build_qa_chain(vectordb,prompt=qa_prompt, model_name="Gemma3", db_name='chroma',k=2,lambd=0.99):
+    #ToDo : make vectorDB a parameters of this function along with llm
     logger.info(f"Building QA chain with {model_name}")
 
     # 🔽 Lazy imports for heavy modules
-    from langchain.chains.retrieval_qa.base import RetrievalQA
-    from langchain_community.llms import Ollama
-    from .vectorstore import load_vectorstore, check_for_vectorstore
 
-    if check_for_vectorstore(db_name):
-        vectordb = load_vectorstore(db_name)
+
+    #if check_for_vectorstore(db_name):
+     #   vectordb = load_vectorstore(db_name)
 
     llm = Ollama(model=model_name)
     retriever = vectordb.as_retriever(
         search_type="mmr",
-        search_kwargs={"k": 10, "lambda_mult": 0.5}
+        search_kwargs={"k": k, "lambda_mult": lambd}
     )
 
     return RetrievalQA.from_chain_type(
@@ -35,8 +39,10 @@ def build_qa_chain(prompt=qa_prompt, model_name="Mistral", db_name='chroma'):
 def answer_query(qa_chain, retriever, query: str):
     logger.info(f"Running query: {query}")
     start_query_time = time.time()
-    return qa_chain.invoke(query), retriever.get_relevant_documents(query)
-    logger.info(f"Query succesfully executed in {time.time()-start_query_time")
+    result = qa_chain.invoke(query)
+    logger.info(f"Query succesfully executed in {time.time() - start_query_time}")
+    return result, retriever.get_relevant_documents(query)
+
 
 if __name__ == "__main__":
     start = time.time()
