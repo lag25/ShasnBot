@@ -1,0 +1,15 @@
+1. Add chatMemory
+2. Add logging (kinda done?) - Add a database (SQLite/Grafana ?) for the logs (ToDo) 
+3. Apply profiling to see bottlenecks (DONE)
+4. t-Sne embeddings visualizations ? 
+5. Add options for Language Models, Retrieval DBs (DONE) 
+   and embedding models	(Kinda done)
+6. Remove deprecated dependecies
+7. Cache heavy functions (Kinda done)
+8. Add pdf Annotations
+9. Bring relevant graphics/images
+10.Stream LM responses (kinda done)
+11. Make the UI/UX better
+12. Get Data/Rent GPU for fine-tuning 
+13. Maybe try some other parser or create your own instead of using
+PyPDFLoader (it gives good performance though)

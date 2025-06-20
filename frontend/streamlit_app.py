@@ -10,9 +10,6 @@ import base64
 from highlight_chunks_in_pdf import highlight_chunks_in_pdf
 
 
-# Debug process ID
-print("PID:", os.getpid())
-
 # --- Setup for Modular Project Import ---
 current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.abspath(os.path.join(current_dir, '..'))
@@ -21,64 +18,10 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 # --- Import core logic ---
-from src.qa import build_qa_chain, answer_query
+from src.qa import build_qa_chain, answer_query_stream_to_ui
 from src.vectorstore import load_vectorstore
 from src.config import MODEL_NAME  # default model (e.g., mistral)
-
-# --- Function to check active Ollama model and processor use ---
-import subprocess
-import requests
-import time
-
-
-def get_ollama_gpu_status(selected_model: str, ensure_gpu: bool = False):
-    import subprocess
-    import requests
-    import time
-
-    try:
-        r = requests.get("http://localhost:11434/api/ps")
-        if not r.ok:
-            return "🔴 Could not connect to Ollama API", None, None
-
-        data = r.json()
-        models = data.get("models", [])
-
-        if not isinstance(models, list):
-            return f"🔴 Unexpected format (not a list): {models}", None, None
-
-        if not models:
-            if ensure_gpu:
-                subprocess.Popen(["ollama", "run", selected_model, "--keepalive", "30m"])
-                return f"✅ {selected_model} is now launching (no models were running)", selected_model, "Launching"
-            return "🟡 No active models running", None, None
-
-        # Check if the selected model is already running
-        for m in models:
-            model_name = m.get("name", "").lower()
-            processor = m.get("details", {}).get("quantization_level", "Unknown quantization")
-            if selected_model.lower() in model_name:
-                return (
-                    f'🟢 **{m["name"]}** is already running ({processor})',
-                    m["name"],
-                    processor
-                )
-
-        # If ensure_gpu is True, stop others and launch selected model
-        if ensure_gpu:
-            for m in models:
-                name = m.get("name")
-                if name:
-                    requests.post("http://localhost:11434/api/stop", json={"name": name})
-                    time.sleep(1)
-
-            subprocess.Popen(["ollama", "run", selected_model, "--keepalive", "30m"])
-            return f"✅ {selected_model} is now launching (previous models stopped)", selected_model, "Launching"
-
-        return f"🟠 Another model is running (not `{selected_model}`)", None, None
-
-    except Exception as e:
-        return f"🔴 Ollama error: {e}", None, None
+from gpu_optimize import get_ollama_gpu_status
 
 
 
@@ -100,7 +43,7 @@ def get_embeddings():
 
 # --- App Layout ---
 st.set_page_config(page_title="Rulebook QA Chatbot", layout="wide")
-st.title("📘 Rulebook Chat Assistant")
+st.title("📘 ShasnBot")
 
 # --- Sidebar Model + Vectorstore Controls ---
 st.sidebar.header("⚙️ Settings")
@@ -118,6 +61,12 @@ status_msg, running_model, proc_type = get_ollama_gpu_status(selected_model)
 st.sidebar.markdown("---")
 st.sidebar.markdown(f"🖥️ **Ollama Status:**\n\n{status_msg}")
 
+# --- Memory Toggle (can affect hallucinations)
+enable_memory = st.sidebar.checkbox("🧠 Enable Memory (prone to hallucinations)", value=False)
+
+st.sidebar.markdown("---")
+k_value = st.sidebar.slider("Top-k Documents to Retrieve (k)", min_value=1, max_value=10, value=2)
+lambda_value = st.sidebar.slider("MMR Lambda (relevance vs diversity)", min_value=0.0, max_value=1.0, value=0.17, step=0.01)
 
 
 # --- Init Embeddings ---
@@ -130,12 +79,20 @@ if "active_model" not in st.session_state:
     st.session_state.qa_chain = None
     st.session_state.retriever = None
     st.session_state.chat_history = []
+    st.session_state.top_k = None
+    st.session_state.lambd = None
 
 # --- Only reload chain if config changes ---
-if (st.session_state.active_model != selected_model) or (st.session_state.active_store != selected_store):
+if ((st.session_state.active_model != selected_model)
+    or (st.session_state.active_store != selected_store)
+    or (st.session_state.top_k != k_value)
+    or (st.session_state.lambd !=lambda_value)):
     with st.spinner("Loading model and vector store..."):
+        # Debug process ID
+        print("PID:", os.getpid())
+
         vectordb = load_vectorstore(embeddings, selected_store)
-        qa_chain, retriever = build_qa_chain(vectordb, model_name=selected_model)
+        qa_chain, retriever = build_qa_chain(vectordb, model_name=selected_model,db_name=selected_store,k=k_value,lambd=lambda_value)
 
         st.session_state.qa_chain = qa_chain
         st.session_state.retriever = retriever
@@ -159,12 +116,19 @@ query = st.chat_input("Ask a question about the rulebook...")
 
 if query:
     st.chat_message("user").markdown(query)
-
     with st.spinner("Answering..."):
-        response_text, retrieved_chunks = get_rag_response(query)
+        # Run retrieval just once
+        chat_placeholder = st.chat_message("assistant").empty()
+        full_response, retrieved_chunks = answer_query_stream_to_ui(
+                qa_chain=st.session_state.qa_chain,
+                retriever=st.session_state.retriever,
+                query=query,
+                ui_placeholder=chat_placeholder)
 
-    st.chat_message("assistant").markdown(response_text)
-    st.session_state.chat_history.append((query, response_text))
+
+        st.session_state.chat_history.append((query, full_response))
+
+
 
     # --- Retrieved context display ---
     with st.expander("📖 Retrieved Rulebook Context"):

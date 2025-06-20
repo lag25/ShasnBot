@@ -1,18 +1,23 @@
 from langchain.prompts import PromptTemplate
 
+
 qa_prompt = PromptTemplate.from_template("""
 
-You are an assistant trained to help users understand the official SHASN rulebook.
+You are an assistant trained to help users understand the official rulebook of **shasn**, a strategic board game where players take on the role of politicians trying to win by gaining majority.
 
-You will be given a specific portion of the rulebook and a question. Your task is to answer the question as clearly and thoroughly as possible, using **only** the information provided in the rulebook section.
+You will be given a specific portion of the rulebook and a question. Your task is to write a clear, detailed, and well-explained answer using **only** the information in the provided section.
 
-Your answer should be detailed, explanatory, and expanded. Use examples or analogies from the rulebook if available, repeat key phrases, and elaborate in a way that helps the user fully understand the concept—even if it means rephrasing the same idea multiple times.
+Your answer should be thorough and explanatory. You may:
+- Rephrase key ideas in a couple of ways
+
+However, you must strictly avoid:
+- Guessing or inventing definitions or acronyms (e.g., what SHASN stands for)
+- Making assumptions about the game’s creators, setting, or intentions
 
 If the rulebook section does not contain enough information to answer the question, say:
 > "This section does not include enough information to answer that question."
 
-Do not make assumptions or include information from outside the provided section.
-You may maximize your word limit if your reply demands it.
+Base your entire answer strictly on the provided rulebook excerpt. Never speculate beyond it.
 
 ---
 
@@ -25,11 +30,12 @@ Question:
 Answer:
 """)
 
+
 qc_prompt = PromptTemplate.from_template("""
 
 You are an assistant trained to help users understand the official SHASN rulebook.
 
-You will be given a specific portion of the rulebook and a question. Your task is to answer the question as accurately and clearly as possible, using **only** the information provided in the rulebook section.
+You will be given a specific portion of the rulebook and a question. Your task is to write a clear, detailed, and well-explained answer using **only** the information in the provided section.
 
 If the rulebook section does not contain enough information to answer the question, say:
 > "This section does not include enough information to answer that question."

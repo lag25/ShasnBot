@@ -1,0 +1,8 @@
+streamlit
+langchain
+pymupdf
+chromadb
+faiss-cpu
+sentence-transformers
+langchain-community
+requests

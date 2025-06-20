@@ -290,3 +290,394 @@ could you make changes for the pdf for this. for now dont do the chunk thing let
 [2025-06-19 01:28:46] [INFO] Query succesfully executed in 26.614006996154785
 [2025-06-19 01:29:37] [INFO] Building QA chain with deepseek-r1:7b
 [2025-06-19 01:29:46] [INFO] Running query: How do you win the game of Shasn ?
+[2025-06-19 01:32:59] [INFO] Query succesfully executed in 192.3300666809082
+[2025-06-19 01:36:52] [INFO] Running query: What are volatile areas ?
+[2025-06-19 01:39:03] [INFO] Query succesfully executed in 131.62720799446106
+[2025-06-19 01:42:51] [INFO] Building QA chain with mistral
+[2025-06-19 01:42:55] [INFO] Building QA chain with mistral
+[2025-06-19 01:42:58] [INFO] Building QA chain with mistral
+[2025-06-19 01:43:23] [INFO] Building QA chain with mistral
+[2025-06-19 01:43:28] [INFO] Building QA chain with mistral
+[2025-06-19 01:43:43] [INFO] Building QA chain with mistral
+[2025-06-19 01:43:46] [INFO] Building QA chain with mistral
+[2025-06-19 01:43:56] [INFO] Running query: How do you win the game of shasn :
+[2025-06-19 01:45:05] [INFO] Query succesfully executed in 69.5715696811676
+[2025-06-19 01:45:34] [INFO] Running query: What is the concept of gerrymandering ?
+[2025-06-19 01:46:19] [INFO] Query succesfully executed in 45.64635610580444
+[2025-06-19 01:49:01] [INFO] Running query: What are the different ideologues ?
+[2025-06-19 01:49:29] [INFO] Query succesfully executed in 27.888797283172607
+[2025-06-19 01:55:38] [INFO] Building QA chain with mistral
+[2025-06-19 01:56:00] [INFO] Building QA chain with mistral
+[2025-06-19 01:57:50] [INFO] Building QA chain with mistral
+[2025-06-19 01:59:29] [INFO] Building QA chain with mistral
+[2025-06-19 02:00:17] [INFO] Building QA chain with mistral
+[2025-06-19 02:00:45] [INFO] Building QA chain with Gemma3
+[2025-06-19 02:01:03] [INFO] Building QA chain with mistral
+[2025-06-19 02:01:43] [INFO] Building QA chain with mistral
+[2025-06-19 02:01:52] [INFO] Running query: How do you win the game of shasn ?
+[2025-06-19 02:02:25] [INFO] Query succesfully executed in 33.77667570114136
+[2025-06-19 02:02:49] [INFO] Building QA chain with mistral
+[2025-06-19 02:02:52] [INFO] Running query: How do you win the game of shasn ?
+[2025-06-19 02:03:24] [INFO] Query succesfully executed in 31.554708003997803
+[2025-06-19 02:03:58] [INFO] Building QA chain with gemma3:4b-it-qat
+[2025-06-19 02:04:23] [INFO] Running query: How do you win the game of shasn
+[2025-06-19 02:05:55] [INFO] Query succesfully executed in 91.61401557922363
+[2025-06-19 02:06:13] [INFO] Building QA chain with qwen2.5:latest
+[2025-06-19 02:06:26] [INFO] Running query: how do you win the game of shan 
+[2025-06-19 02:07:09] [INFO] Query succesfully executed in 42.36980700492859
+[2025-06-19 02:07:27] [INFO] Building QA chain with mistral
+[2025-06-19 02:07:34] [INFO] Building QA chain with mistral
+[2025-06-19 02:07:51] [INFO] Running query: how do you win the game of shasn ?
+[2025-06-19 02:08:52] [INFO] Query succesfully executed in 61.333717584609985
+[2025-06-19 02:09:10] [INFO] Building QA chain with mistral
+[2025-06-19 02:09:17] [INFO] Running query: how do you win the game of shasn ?
+
+[2025-06-19 02:09:49] [INFO] Query succesfully executed in 31.86934804916382
+[2025-06-19 02:10:26] [INFO] Running query: How many different types of ideologues are present in the base game of shasn
+[2025-06-19 02:11:01] [INFO] Query succesfully executed in 34.70189166069031
+[2025-06-19 02:13:44] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:13:56] [INFO] Building QA chain with mistral
+[2025-06-19 02:18:46] [INFO] Building QA chain with mistral
+[2025-06-19 02:18:52] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:19:12] [INFO] Running query: How do you win a game of shasn ?
+[2025-06-19 02:19:23] [INFO] Query succesfully executed in 11.316847324371338
+[2025-06-19 02:19:48] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:19:59] [INFO] Running query: How do you win a game of shasn ?
+[2025-06-19 02:20:12] [INFO] Query succesfully executed in 12.532747745513916
+[2025-06-19 02:21:44] [INFO] Running query: Who created the game of Shasn ?
+[2025-06-19 02:21:56] [INFO] Query succesfully executed in 11.868122339248657
+[2025-06-19 02:22:20] [INFO] Running query: What people are credited with making this game ?
+[2025-06-19 02:22:27] [INFO] Query succesfully executed in 6.393088102340698
+[2025-06-19 02:22:43] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:22:52] [INFO] Running query: What people are credited with making shasn /
+[2025-06-19 02:23:00] [INFO] Query succesfully executed in 7.723683834075928
+[2025-06-19 02:23:22] [INFO] Running query: What are volatile areas ?
+[2025-06-19 02:23:35] [INFO] Query succesfully executed in 13.04082465171814
+[2025-06-19 02:24:46] [INFO] Running query: What's the difference between a Conspiracy card and a headline card ?
+[2025-06-19 02:25:03] [INFO] Query succesfully executed in 17.519206285476685
+[2025-06-19 02:27:09] [INFO] Running query: What are the four different ideologues and how they are represented ?
+[2025-06-19 02:27:26] [INFO] Query succesfully executed in 17.266587734222412
+[2025-06-19 02:28:00] [INFO] Running query: In what order is the game played ? 
+[2025-06-19 02:28:08] [INFO] Query succesfully executed in 8.054302453994751
+[2025-06-19 02:30:06] [INFO] Building QA chain with mistral
+[2025-06-19 02:30:11] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:30:19] [INFO] Running query: In what order is this game played?
+[2025-06-19 02:30:31] [INFO] Query succesfully executed in 12.214352369308472
+[2025-06-19 02:31:00] [INFO] Running query: How many ideologues are there ? 
+[2025-06-19 02:31:09] [INFO] Query succesfully executed in 8.66329312324524
+[2025-06-19 02:31:24] [INFO] Running query: What are volatile areas 
+[2025-06-19 02:31:37] [INFO] Query succesfully executed in 12.71704888343811
+[2025-06-19 02:32:09] [INFO] Running query: Can you summarize this game for me ?
+[2025-06-19 02:32:25] [INFO] Query succesfully executed in 15.484054803848267
+[2025-06-19 02:35:46] [INFO] Running query: Tell me about the resources in Shasn ?
+[2025-06-19 02:35:54] [INFO] Query succesfully executed in 8.50400972366333
+[2025-06-19 02:36:43] [INFO] Running query: Are there any resource restrictions ?
+[2025-06-19 02:36:53] [INFO] Query succesfully executed in 10.066935539245605
+[2025-06-19 02:37:22] [INFO] Running query: What constitutes an auction in shasn ?
+[2025-06-19 02:37:35] [INFO] Query succesfully executed in 13.004390239715576
+[2025-06-19 02:37:57] [INFO] Running query: In what kind of situations does an auction occur ?
+[2025-06-19 02:38:08] [INFO] Query succesfully executed in 10.973872184753418
+[2025-06-19 02:40:37] [INFO] Building QA chain with mistral
+[2025-06-19 02:40:44] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:40:54] [INFO] Running query: What is this model about ?
+[2025-06-19 02:41:03] [INFO] Query succesfully executed in 9.241724252700806
+[2025-06-19 02:41:18] [INFO] Running query: Summarize this game for me ?
+[2025-06-19 02:41:27] [INFO] Query succesfully executed in 9.804897546768188
+[2025-06-19 02:43:30] [INFO] Building QA chain with mistral
+[2025-06-19 02:43:41] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:43:50] [INFO] Running query: What is this model for ?
+[2025-06-19 02:44:03] [INFO] Query succesfully executed in 13.025661945343018
+[2025-06-19 02:44:47] [INFO] Building QA chain with mistral
+[2025-06-19 02:44:58] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:45:05] [INFO] Running query: What is this model made for ?
+[2025-06-19 02:45:13] [INFO] Query succesfully executed in 8.424643754959106
+[2025-06-19 02:45:25] [INFO] Running query: Summarize this game for me 
+[2025-06-19 02:45:35] [INFO] Query succesfully executed in 10.131714105606079
+[2025-06-19 02:46:11] [INFO] Running query: What are the principal components of SHASN 
+[2025-06-19 02:46:21] [INFO] Query succesfully executed in 9.782984256744385
+[2025-06-19 02:47:37] [INFO] Building QA chain with mistral
+[2025-06-19 02:47:44] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:47:51] [INFO] Running query: In what order is the game played ?
+[2025-06-19 02:48:01] [INFO] Query succesfully executed in 10.602937698364258
+[2025-06-19 02:48:32] [INFO] Building QA chain with mistral
+[2025-06-19 02:48:35] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:50:23] [INFO] Building QA chain with mistral
+[2025-06-19 02:50:23] [INFO] Building QA chain with mistral
+[2025-06-19 02:50:32] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:51:10] [INFO] Running query: How do you win the game of shasn ?
+[2025-06-19 02:51:45] [INFO] Query succesfully executed in 34.31987929344177
+[2025-06-19 02:52:25] [INFO] Running query: What are the different ideologues in shasn ?
+[2025-06-19 02:53:01] [INFO] Query succesfully executed in 35.485392808914185
+[2025-06-19 02:54:52] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:55:01] [INFO] Running query: how do you win this game ?
+[2025-06-19 02:55:46] [INFO] Query succesfully executed in 44.18433117866516
+[2025-06-19 02:57:22] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:57:36] [INFO] Running query: Summarize this game for me ?
+[2025-06-19 02:58:10] [INFO] Query succesfully executed in 34.496907472610474
+[2025-06-19 02:58:37] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 02:58:45] [INFO] Running query: Summarize this game for me ?
+[2025-06-19 02:58:59] [INFO] Query succesfully executed in 14.124313592910767
+[2025-06-19 02:59:18] [INFO] Running query: What are volatile areas ?
+[2025-06-19 02:59:35] [INFO] Query succesfully executed in 17.496098518371582
+[2025-06-19 03:00:04] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 03:00:09] [INFO] Running query: What are volatile areas ?
+[2025-06-19 03:00:23] [INFO] Query succesfully executed in 13.901641368865967
+[2025-06-19 03:05:17] [INFO] Building QA chain with mistral
+[2025-06-19 03:05:24] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 03:10:16] [INFO] Building QA chain with mistral
+[2025-06-19 03:10:23] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 03:25:07] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 03:27:10] [INFO] Building QA chain with mistral
+[2025-06-19 03:28:19] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 03:33:57] [INFO] Building QA chain with mistral
+[2025-06-19 03:34:11] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 03:47:40] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 03:49:48] [INFO] Building QA chain with mistral
+[2025-06-19 03:50:13] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 03:54:55] [INFO] Building QA chain with mistral
+[2025-06-19 03:55:02] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 03:56:28] [INFO] Building QA chain with mistral
+[2025-06-19 03:56:32] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 03:57:53] [INFO] Building QA chain with mistral
+[2025-06-19 03:58:14] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 04:02:18] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 04:44:30] [INFO] Building QA chain with mistral
+[2025-06-19 04:44:40] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 04:49:10] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 05:04:22] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 05:04:36] [INFO] Running streamed query: Summarize this game for me
+[2025-06-19 05:04:46] [INFO] Query completed in 10.02 seconds
+[2025-06-19 05:05:23] [INFO] Running streamed query: How would you win this game 
+[2025-06-19 05:05:46] [INFO] Query completed in 23.54 seconds
+[2025-06-19 05:06:30] [INFO] Running streamed query: Who invented this game 
+[2025-06-19 05:06:38] [INFO] Query completed in 8.33 seconds
+[2025-06-19 05:06:56] [INFO] Running streamed query: What are the different ideologues in this game 
+[2025-06-19 05:07:18] [INFO] Query completed in 22.26 seconds
+[2025-06-19 05:07:35] [INFO] Building QA chain with phi
+[2025-06-19 05:07:56] [INFO] Running streamed query: What are the different ideologues in this game 
+[2025-06-19 05:08:08] [INFO] Query completed in 12.20 seconds
+[2025-06-19 05:08:19] [INFO] Building QA chain with mistral
+[2025-06-19 05:08:47] [INFO] Running streamed query: What are the different ideologues in this game ?
+[2025-06-19 05:09:16] [INFO] Query completed in 29.27 seconds
+[2025-06-19 05:10:12] [INFO] Running streamed query: How do you win this game 
+[2025-06-19 05:11:24] [INFO] Query completed in 72.07 seconds
+[2025-06-19 05:17:05] [INFO] Running streamed query: What are the different ideologues
+[2025-06-19 05:18:39] [INFO] Query completed in 93.32 seconds
+[2025-06-19 05:29:31] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 05:30:26] [INFO] Running streamed query: What are the level 3 and level 5 abilities for the supremo
+[2025-06-19 05:30:42] [INFO] Query completed in 16.31 seconds
+[2025-06-19 05:58:38] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 05:58:58] [INFO] Running streamed query: What is the supremo in Shasn 
+[2025-06-19 05:59:18] [INFO] Query completed in 19.78 seconds
+[2025-06-19 05:59:39] [INFO] Running streamed query: What are it's level 3 and level 5 capabilities
+[2025-06-19 06:02:18] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:02:32] [INFO] Running streamed query: What is the supremo in Shasn ?
+[2025-06-19 06:02:42] [INFO] Query completed in 9.84 seconds
+[2025-06-19 06:03:12] [INFO] Running streamed query: Are you sure 
+[2025-06-19 06:04:00] [INFO] Building QA chain with mistral
+[2025-06-19 06:04:03] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:04:14] [INFO] Running streamed query: What are the different ideologues in this game ?
+[2025-06-19 06:04:43] [INFO] Query completed in 29.28 seconds
+[2025-06-19 06:05:10] [INFO] Building QA chain with mistral
+[2025-06-19 06:05:13] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:05:13] [INFO] Running streamed query: Can you explain them 
+[2025-06-19 06:06:54] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:07:03] [INFO] Running streamed query: Summarize this game for me 
+[2025-06-19 06:07:21] [INFO] Query completed in 17.81 seconds
+[2025-06-19 06:07:47] [INFO] Running streamed query: What are the different ideologues
+[2025-06-19 06:10:32] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:10:39] [INFO] Running streamed query: What is Shasn
+[2025-06-19 06:10:47] [INFO] Query completed in 8.88 seconds
+[2025-06-19 06:11:05] [INFO] Running streamed query: How many ideologues are in this game 
+[2025-06-19 06:12:55] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:13:08] [INFO] Running streamed query: What is this model about 
+[2025-06-19 06:13:27] [INFO] Query completed in 19.10 seconds
+[2025-06-19 06:13:56] [INFO] Running streamed query: How many ideologues are there in shasn
+[2025-06-19 06:13:56] [INFO] Query completed in 0.00 seconds
+[2025-06-19 06:14:44] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:15:18] [INFO] Running streamed query: How many ideologues are there in Shasn
+[2025-06-19 06:15:30] [INFO] Query completed in 12.07 seconds
+[2025-06-19 06:15:50] [INFO] Running streamed query: Can you explain them
+[2025-06-19 06:15:50] [INFO] Query completed in 0.00 seconds
+[2025-06-19 06:17:06] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:17:14] [INFO] Running streamed query: Explain the game of shasn to me 
+[2025-06-19 06:17:47] [INFO] Query completed in 33.43 seconds
+[2025-06-19 06:18:06] [INFO] Running streamed query: What are the different ideologues
+[2025-06-19 06:18:06] [INFO] Query completed in 0.00 seconds
+[2025-06-19 06:21:16] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:21:28] [INFO] Running streamed query: What is Shasn
+[2025-06-19 06:21:44] [INFO] Query completed in 15.34 seconds
+[2025-06-19 06:22:04] [INFO] Running streamed query: What are the different ideologues in shasn
+[2025-06-19 06:26:49] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:27:02] [INFO] Running streamed query: What is Shasn ?
+[2025-06-19 06:27:26] [INFO] Query completed in 23.39 seconds
+[2025-06-19 06:27:46] [INFO] Running streamed query: What are the ideologues
+[2025-06-19 06:28:25] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:28:33] [INFO] Running streamed query: What is Shasn ?
+[2025-06-19 06:28:41] [INFO] Query completed in 7.34 seconds
+[2025-06-19 06:29:01] [INFO] Running streamed query: What are ideologues in shasn
+[2025-06-19 06:29:25] [INFO] Query completed in 24.72 seconds
+[2025-06-19 06:29:50] [INFO] Running streamed query: What are conspiracy cards
+[2025-06-19 06:31:19] [INFO] Query completed in 88.33 seconds
+[2025-06-19 06:33:39] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:33:49] [INFO] Running streamed query: What is Shasn 
+[2025-06-19 06:34:14] [INFO] Query completed in 24.46 seconds
+[2025-06-19 06:34:43] [INFO] Running streamed query: What are the different ideologues in Shasn
+[2025-06-19 06:35:23] [INFO] Query completed in 39.90 seconds
+[2025-06-19 06:36:02] [INFO] Running streamed query: Do you know anything about the supremo ?
+
+[2025-06-19 06:36:36] [INFO] Query completed in 34.38 seconds
+[2025-06-19 06:36:58] [INFO] Running streamed query: What perks does it get for lvl 3 and lvl 5 
+[2025-06-19 06:37:24] [INFO] Query completed in 26.07 seconds
+[2025-06-19 06:46:28] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:46:36] [INFO] Running streamed query: What is Shasn
+[2025-06-19 06:46:47] [INFO] Query completed in 10.94 seconds
+[2025-06-19 06:47:03] [INFO] Running streamed query: What are the different ideologues in shasn
+[2025-06-19 06:47:11] [INFO] Query completed in 8.01 seconds
+[2025-06-19 06:47:37] [INFO] Running streamed query: Can you explain the level 3 and level 5 power of each of them
+[2025-06-19 06:47:57] [INFO] Query completed in 19.91 seconds
+[2025-06-19 06:48:33] [INFO] Running streamed query: Who is the Supremo in Shasn ?
+[2025-06-19 06:48:41] [INFO] Query completed in 8.39 seconds
+[2025-06-19 06:51:21] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:52:02] [INFO] Building QA chain with mistral
+[2025-06-19 06:52:09] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 06:52:15] [INFO] Running streamed query: What is Shasn
+[2025-06-19 06:52:35] [INFO] Query completed in 19.54 seconds
+[2025-06-19 06:52:59] [INFO] Running streamed query: What are the different ideologues
+[2025-06-19 06:53:23] [INFO] Query completed in 23.83 seconds
+[2025-06-19 06:53:46] [INFO] Running streamed query: What are conspiracy cards 
+[2025-06-19 06:54:15] [INFO] Query completed in 28.98 seconds
+[2025-06-19 06:54:36] [INFO] Running streamed query: What are auctions in shasn 
+[2025-06-19 06:55:00] [INFO] Query completed in 24.12 seconds
+[2025-06-19 06:55:35] [INFO] Running streamed query: What are volatile areas ? 
+[2025-06-19 06:56:21] [INFO] Query completed in 45.65 seconds
+[2025-06-19 06:56:54] [INFO] Running streamed query: What is the concept of Gerrymandering in Shasn 
+[2025-06-19 06:57:23] [INFO] Query completed in 28.78 seconds
+[2025-06-19 06:58:34] [INFO] Running streamed query: What are headline cards 
+[2025-06-19 06:58:56] [INFO] Query completed in 22.70 seconds
+[2025-06-19 06:59:33] [INFO] Running streamed query: What is the order in which the game is played 
+[2025-06-19 07:00:35] [INFO] Query completed in 62.40 seconds
+[2025-06-19 07:01:41] [INFO] Running streamed query: What are the powers of the Capitalist
+[2025-06-19 07:02:11] [INFO] Query completed in 29.36 seconds
+[2025-06-19 07:02:32] [INFO] Running streamed query: What are the powers of the Dynamo
+[2025-06-19 07:03:03] [INFO] Query completed in 31.67 seconds
+[2025-06-19 07:10:38] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 07:10:46] [INFO] Running streamed query: What is Shasn 
+[2025-06-19 07:11:16] [INFO] Query completed in 29.25 seconds
+[2025-06-19 07:11:54] [INFO] Running streamed query: How many ideologues are there ?
+[2025-06-19 07:12:04] [INFO] Query completed in 10.16 seconds
+[2025-06-19 07:12:16] [INFO] Running streamed query: What is gerrymandering 
+[2025-06-19 07:12:27] [INFO] Query completed in 10.88 seconds
+[2025-06-19 07:12:42] [INFO] Running streamed query: How do you win the game ?
+[2025-06-19 07:13:03] [INFO] Query completed in 20.39 seconds
+[2025-06-19 13:46:28] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 13:46:37] [INFO] Running streamed query: What is shasn about ?
+[2025-06-19 13:46:50] [INFO] Query completed in 12.64 seconds
+[2025-06-19 13:47:39] [INFO] Running streamed query: What are the key components of shasn
+[2025-06-19 13:47:49] [INFO] Query completed in 9.50 seconds
+[2025-06-19 13:48:25] [INFO] Running streamed query: How many ideologues are there in Shasn 
+[2025-06-19 13:48:32] [INFO] Query completed in 6.96 seconds
+[2025-06-19 13:49:11] [INFO] Running streamed query: In what order is the game played ?
+[2025-06-19 13:49:24] [INFO] Query completed in 13.25 seconds
+[2025-06-19 13:50:08] [INFO] Running streamed query: What is Gerrymandering ?
+[2025-06-19 13:50:20] [INFO] Query completed in 12.13 seconds
+[2025-06-19 13:51:00] [INFO] Running streamed query: In what situation does an auction occur in Shasn ?
+[2025-06-19 13:51:17] [INFO] Query completed in 16.53 seconds
+[2025-06-19 13:53:09] [INFO] Building QA chain with mistral
+[2025-06-19 13:53:18] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 13:55:46] [INFO] Running streamed query: What is this Game about
+[2025-06-19 13:56:00] [INFO] Query completed in 14.11 seconds
+[2025-06-19 13:56:35] [INFO] Running streamed query: How do you win the game 
+[2025-06-19 13:56:46] [INFO] Query completed in 10.92 seconds
+[2025-06-19 13:58:17] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 13:58:24] [INFO] Running streamed query: What is this game about 
+[2025-06-19 13:58:31] [INFO] Query completed in 6.86 seconds
+[2025-06-19 13:58:42] [INFO] Running streamed query: How do you play this game 
+[2025-06-19 13:58:50] [INFO] Query completed in 7.57 seconds
+[2025-06-19 13:59:12] [INFO] Running streamed query: How many ideologues are there and what do they do 
+[2025-06-19 13:59:18] [INFO] Query completed in 6.56 seconds
+[2025-06-19 13:59:59] [INFO] Running streamed query: What are the passive powers of the capitalist
+[2025-06-19 14:00:06] [INFO] Query completed in 6.87 seconds
+[2025-06-19 14:01:22] [INFO] Running streamed query: What is gerrymandering 
+[2025-06-19 14:01:27] [INFO] Query completed in 5.52 seconds
+[2025-06-19 14:02:12] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:02:28] [INFO] Running streamed query: How do you win the game of Shasn 
+[2025-06-19 14:02:38] [INFO] Query completed in 10.04 seconds
+[2025-06-19 14:03:09] [INFO] Building QA chain with mistral
+[2025-06-19 14:03:35] [INFO] Running streamed query: How do you win the game of Shasn
+[2025-06-19 14:04:04] [INFO] Query completed in 28.50 seconds
+[2025-06-19 14:04:26] [INFO] Running streamed query: How does the game end 
+[2025-06-19 14:05:16] [INFO] Query completed in 49.49 seconds
+[2025-06-19 14:06:00] [INFO] Running streamed query: What are conspiracy cards
+[2025-06-19 14:06:37] [INFO] Query completed in 36.25 seconds
+[2025-06-19 14:06:55] [INFO] Running streamed query: What are headline cards
+[2025-06-19 14:07:27] [INFO] Query completed in 32.01 seconds
+[2025-06-19 14:17:05] [INFO] Building QA chain with mistral
+[2025-06-19 14:17:23] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:17:39] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:17:39] [INFO] Running streamed query: What is this game about 
+[2025-06-19 14:17:53] [INFO] Query completed in 14.26 seconds
+[2025-06-19 14:18:04] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:18:12] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:18:12] [INFO] Running streamed query: Explain Shasn to me 
+[2025-06-19 14:18:37] [INFO] Query completed in 24.82 seconds
+[2025-06-19 14:18:55] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:18:55] [INFO] Running streamed query: How does the game end 
+[2025-06-19 14:19:05] [INFO] Query completed in 9.23 seconds
+[2025-06-19 14:19:18] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:19:24] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:19:24] [INFO] Running streamed query: What is gerrymandering 
+[2025-06-19 14:19:39] [INFO] Query completed in 14.88 seconds
+[2025-06-19 14:20:01] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:20:01] [INFO] Running streamed query: What are conspiracy cards
+[2025-06-19 14:20:18] [INFO] Query completed in 17.08 seconds
+[2025-06-19 14:21:16] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:21:16] [INFO] Running streamed query: Who created this game 
+[2025-06-19 14:21:20] [INFO] Building QA chain with mistral
+[2025-06-19 14:21:43] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:21:47] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:21:55] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:21:55] [INFO] Running streamed query: Who created this game 
+[2025-06-19 14:21:59] [INFO] Query completed in 4.69 seconds
+[2025-06-19 14:23:48] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:23:48] [INFO] Running streamed query: Can you list the level 3 and level 5 powers of each ideologue 
+[2025-06-19 14:24:05] [INFO] Query completed in 16.60 seconds
+[2025-06-19 14:24:27] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 14:24:27] [INFO] Running streamed query: What are the passive powers of each ideologue 
+[2025-06-19 14:24:43] [INFO] Query completed in 16.42 seconds
+[2025-06-19 15:49:14] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 15:50:04] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 15:50:13] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 15:50:13] [INFO] Running streamed query: Can you explain how this game is played
+[2025-06-19 15:50:45] [INFO] Query completed in 31.79 seconds
+[2025-06-19 15:51:28] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 15:51:28] [INFO] Running streamed query: What is the concept of Gerrymandering in shasn 
+[2025-06-19 15:51:55] [INFO] Query completed in 26.41 seconds
+[2025-06-19 15:52:19] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 15:52:19] [INFO] Running streamed query: How many ideologues are there in shasn 
+[2025-06-19 15:52:28] [INFO] Query completed in 9.64 seconds
+[2025-06-19 15:53:01] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 15:53:01] [INFO] Running streamed query: What are the different ideologues in Shasn 
+[2025-06-19 15:53:16] [INFO] Query completed in 15.18 seconds
+[2025-06-19 15:53:37] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 15:53:37] [INFO] Running streamed query: What are the passive power of each ideologue 
+[2025-06-19 15:53:47] [INFO] Query completed in 9.94 seconds
+[2025-06-19 15:54:10] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 15:54:10] [INFO] Running streamed query: What is volatile area
+[2025-06-19 15:54:17] [INFO] Query completed in 6.74 seconds
+[2025-06-19 15:54:31] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 15:54:31] [INFO] Running streamed query: What are headline cards
+[2025-06-19 15:54:47] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 15:54:54] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 15:54:54] [INFO] Running streamed query: What are headline cards
+[2025-06-19 15:55:19] [INFO] Query completed in 25.18 seconds
+[2025-06-19 16:03:58] [INFO] Building QA chain with mistral
+[2025-06-19 16:04:33] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 16:04:58] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 16:04:58] [INFO] Running streamed query: What is the concept of Gerrymandering in Shasn 
+[2025-06-19 16:05:29] [INFO] Query completed in 30.99 seconds
+[2025-06-19 16:06:07] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 16:07:46] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 16:08:00] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-19 16:08:00] [INFO] Running streamed query: What is the concept of Gerrymandering in Shasn
+[2025-06-19 16:08:14] [INFO] Query completed in 14.21 seconds

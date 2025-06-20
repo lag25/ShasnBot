@@ -8,12 +8,12 @@ from langchain_core.documents import Document
 from .config import INDEX_PATH, FILE_PATH, CHROMA_PATH, FAISS_PATH, MODEL_NAME    # Gets vectorDB directory
 from .loader import create_docs
 
-model_kwargs = {"device": "cpu"}
+model_kwargs = {"device": "cuda"}
 encode_kwargs = {"normalize_embeddings": True}
 
 
 
-def build_chroma_index(chunks: list[Document],embeddings):
+def build_chroma_index(chunks: list[Document]):
     '''Builds an instance of Chroma VectorDB'''
     model_name = "sentence-transformers/all-mpnet-base-v2"
     model_kwargs = {"device": "cpu"}
@@ -28,7 +28,7 @@ def build_chroma_index(chunks: list[Document],embeddings):
     #print(f"Saved {len(chunks)} chunks to {CHROMA_FILE}")
     return vectorstore
 
-def build_faiss_index(docs: list[Document],embeddings):
+def build_faiss_index(docs: list[Document]):
     '''Builds an instance of FAISS VectorDB'''
     model_name = "sentence-transformers/all-mpnet-base-v2"
     embeddings = HuggingFaceEmbeddings(model_name=model_name)
