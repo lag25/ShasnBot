@@ -1,9 +1,75 @@
 import fitz  # PyMuPDF
-import difflib
+import subprocess
+from rapidfuzz import fuzz, process  # faster and better than fuzzywuzzy
+
+
+def open_page_chunk(pdf_path,chunk):
+    doc = fitz.open(pdf_path)
+    acrobat_path = r"C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe"
+    sumatra_path = r"D:\SumatraPDF\SumatraPDF.exe"
+    page_num = chunk.metadata.get("page")
+    ''' subprocess.Popen([
+        acrobat_path,
+        '/A',
+        f'page={page_num+1}=OpenActions',
+        pdf_path
+    ]) '''
+
+    subprocess.Popen([
+        sumatra_path,
+        f'-page', str(page_num + 1),
+        pdf_path
+    ])
+
+
+def open_page_chunk_annot(pdf_path, chunk, user_query, output_pdf_path="annotated_output.pdf", threshold=35):
+    """
+    Uses a sliding 4-word window on the chunk text, compares to query using fuzzy match,
+    and highlights the actual matching text found on the PDF page.
+    """
+    doc = fitz.open(pdf_path)
+    page_num = chunk.metadata.get("page")
+    page = doc[page_num]
+
+    # Raw chunk text from the page, cleaned
+    raw_text = chunk.page_content.replace('\n', ' ').strip()
+    words = raw_text.split()
+    window_size = 4
+
+    matches_found = 0
+
+    for i in range(len(words) - window_size + 1):
+        window_text = ' '.join(words[i:i + window_size])
+        score = fuzz.partial_ratio(window_text.lower(), user_query.lower())
+
+        if score >= threshold:
+            # Try to find that exact text on the actual PDF page
+            rects = page.search_for(window_text)
+            if rects:
+                print(f"✅ Match (score {score}): \"{window_text}\"")
+                matches_found += 1
+                for rect in rects:
+                    annot = page.add_highlight_annot(rect)
+                    annot.set_info(content=f"Matched: {user_query}")
+
+    # Save the annotated file
+    doc.save(output_pdf_path)
+    doc.close()
+
+    # Open the annotated file in SumatraPDF at correct page
+    sumatra_path = r"D:\SumatraPDF\SumatraPDF.exe"
+    subprocess.Popen([
+        sumatra_path,
+        '-page', str(page_num + 1),
+        output_pdf_path
+    ])
+
+    if matches_found == 0:
+        print("No matching text found on the actual PDF page.")
+
 
 def highlight_chunks_in_pdf(pdf_path, chunks, output_path="highlighted_rulebook.pdf"):
     doc = fitz.open(pdf_path)
-
     for chunk in chunks:
         try:
             page_num = chunk.metadata.get("page")

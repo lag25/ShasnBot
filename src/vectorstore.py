@@ -1,12 +1,11 @@
 import os
-import asyncio
 
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS,Chroma
 from langchain_core.documents import Document
 
 from .config import INDEX_PATH, FILE_PATH, CHROMA_PATH, FAISS_PATH, MODEL_NAME    # Gets vectorDB directory
-from .loader import create_docs
+from .loader import create_chunks
 
 model_kwargs = {"device": "cuda"}
 encode_kwargs = {"normalize_embeddings": True}
@@ -23,17 +22,17 @@ def build_chroma_index(chunks: list[Document]):
     )
 
     vectorstore = Chroma.from_documents(
-        chunks, embedding=embeddings, persist_directory = os.path.join(INDEX_PATH,'chromaDB')
+        chunks, embedding=embeddings, persist_directory = CHROMA_PATH
     )
     #print(f"Saved {len(chunks)} chunks to {CHROMA_FILE}")
     return vectorstore
 
 def build_faiss_index(docs: list[Document]):
     '''Builds an instance of FAISS VectorDB'''
-    model_name = "sentence-transformers/all-mpnet-base-v2"
-    embeddings = HuggingFaceEmbeddings(model_name=model_name)
+    #model_name = "sentence-transformers/all-mpnet-base-v2"
+    embeddings = HuggingFaceEmbeddings(model_name=MODEL_NAME)
     vectorstore = FAISS.from_documents(docs, embedding=embeddings)
-    vectorstore.save_local(os.path.join(INDEX_PATH,'faissDB'))
+    vectorstore.save_local(FAISS_PATH)
     return vectorstore
 
 def check_for_vectorstore(db_name:str):
@@ -56,15 +55,18 @@ def load_vectorstore(embeddings,db_name:str='chroma'):
         return FAISS.load_local(os.path.join(INDEX_PATH,'faissDB'), embeddings, allow_dangerous_deserialization=True)
 
 if(__name__ == "__main__"):
-    #docs = asyncio.run(create_docs(FILE_PATH))
-
+    '''Usage to create/check for stores'''
     try:
-
+        import asyncio
+        from .loader import create_docs
+        docs = asyncio.run(create_docs())
+        docs = create_chunks(docs)
         #model_name = "sentence-transformers/all-mpnet-base-v2"
         #embeddings = HuggingFaceEmbeddings(model_name=model_name)
         #print(load_vectorstore(),embeddings)
-        print(check_for_vectorstore('chroma'))
+        build_faiss_index(docs)
+        print(check_for_vectorstore('faiss'))
         print("RUN SUCCESSFUL")
     except Exception as e:
-         print(e)
+        print(e)
 

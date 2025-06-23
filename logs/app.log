@@ -681,3 +681,1207 @@ could you make changes for the pdf for this. for now dont do the chunk thing let
 [2025-06-19 16:08:00] [INFO] Building QA chain with smollm2:1.7b
 [2025-06-19 16:08:00] [INFO] Running streamed query: What is the concept of Gerrymandering in Shasn
 [2025-06-19 16:08:14] [INFO] Query completed in 14.21 seconds
+[2025-06-20 20:31:05] [INFO] Building QA chain with smollm2:360m
+[2025-06-20 20:32:21] [INFO] Building QA chain with smollm2:360m
+[2025-06-20 20:32:21] [INFO] Running streamed query: How does shasn work 
+[2025-06-20 20:32:25] [INFO] Query completed in 4.58 seconds
+[2025-06-20 20:32:45] [INFO] Building QA chain with smollm2:360m
+[2025-06-20 20:32:45] [INFO] Running streamed query: What is gerrymandering in shasn 
+[2025-06-20 20:32:50] [INFO] Query completed in 4.92 seconds
+[2025-06-20 20:33:33] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:33:43] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:33:43] [INFO] Running streamed query: What is Gerrymandering in Shasn ?
+[2025-06-20 20:34:04] [INFO] Query completed in 21.14 seconds
+[2025-06-20 20:35:07] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:35:21] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:35:21] [INFO] Running streamed query: What are conspiracy cards ?
+[2025-06-20 20:35:37] [INFO] Query completed in 16.79 seconds
+[2025-06-20 20:38:49] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:39:02] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:39:02] [INFO] Running streamed query: How do you win the game of Shasn ? 
+[2025-06-20 20:39:09] [INFO] Query completed in 7.33 seconds
+[2025-06-20 20:39:30] [INFO] Building QA chain with mistral
+[2025-06-20 20:39:34] [INFO] Building QA chain with mistral
+[2025-06-20 20:39:42] [INFO] Building QA chain with mistral
+[2025-06-20 20:39:42] [INFO] Running streamed query: How do you win the game of Shasn ? 
+[2025-06-20 20:39:56] [INFO] Query completed in 14.70 seconds
+[2025-06-20 20:42:50] [INFO] Building QA chain with mistral
+[2025-06-20 20:44:23] [INFO] Building QA chain with mistral
+[2025-06-20 20:44:33] [INFO] Building QA chain with mistral
+[2025-06-20 20:44:33] [INFO] Running streamed query: How do you win the game of Shasn 
+[2025-06-20 20:45:11] [INFO] Query completed in 37.16 seconds
+[2025-06-20 20:47:53] [INFO] Building QA chain with mistral
+[2025-06-20 20:48:00] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:48:07] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:48:10] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:48:10] [INFO] Running streamed query: How do you win the game of Shasn 
+[2025-06-20 20:48:32] [INFO] Query completed in 21.93 seconds
+[2025-06-20 20:49:04] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:49:04] [INFO] Running streamed query: What is Gerrymandering ? 
+[2025-06-20 20:49:14] [INFO] Query completed in 10.10 seconds
+[2025-06-20 20:50:09] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:50:16] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:50:16] [INFO] Running streamed query: What is Gerrymandering ? 
+[2025-06-20 20:50:46] [INFO] Query completed in 29.98 seconds
+[2025-06-20 20:51:44] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:51:44] [INFO] Running streamed query: What is Shasn ? 
+[2025-06-20 20:52:16] [INFO] Query completed in 31.89 seconds
+[2025-06-20 20:53:06] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-20 20:53:06] [INFO] Running streamed query: In what order is shasn played ?
+[2025-06-20 20:53:35] [INFO] Query completed in 29.83 seconds
+[2025-06-21 02:51:06] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 02:51:19] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 02:51:19] [INFO] Running streamed query: What is this ?
+[2025-06-21 02:51:36] [INFO] Query completed in 16.45 seconds
+[2025-06-21 03:17:58] [INFO] Building QA chain with smollm2:360m
+[2025-06-21 03:18:11] [INFO] Building QA chain with smollm2:360m
+[2025-06-21 03:18:16] [INFO] Running streamed query: How do you win the game of Shasn ?
+[2025-06-21 03:18:27] [INFO] Query completed in 11.29 seconds
+[2025-06-21 03:20:27] [INFO] Building QA chain with mistral
+[2025-06-21 03:20:52] [INFO] Building QA chain with smollm2:360m
+[2025-06-21 03:20:59] [INFO] Building QA chain with smollm2:360m
+[2025-06-21 03:20:59] [INFO] Running streamed query: How do you win the game of shasn 
+[2025-06-21 03:21:05] [INFO] Query completed in 6.11 seconds
+[2025-06-21 03:21:41] [INFO] Building QA chain with mistral
+[2025-06-21 03:22:29] [INFO] Building QA chain with smollm2:360m
+[2025-06-21 03:22:35] [INFO] Building QA chain with smollm2:360m
+[2025-06-21 03:22:35] [INFO] Running streamed query: How do you win the game of Shasn 
+[2025-06-21 03:22:43] [INFO] Query completed in 8.32 seconds
+[2025-06-21 03:24:44] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 03:25:08] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 03:25:09] [INFO] Running streamed query: How do you win the game of shasn 
+[2025-06-21 03:25:29] [INFO] Query completed in 19.74 seconds
+[2025-06-21 03:27:39] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 03:27:39] [INFO] Running streamed query: What is 1+!
+[2025-06-21 03:27:49] [INFO] Query completed in 9.90 seconds
+[2025-06-21 03:28:03] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 03:28:03] [INFO] Running streamed query: What is gerrymandering 
+[2025-06-21 03:28:17] [INFO] Query completed in 13.78 seconds
+[2025-06-21 15:59:45] [INFO] Building QA chain with mistral
+[2025-06-21 15:59:47] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 15:59:53] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 15:59:55] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 16:00:07] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 16:00:12] [INFO] Running streamed query: Who are the people in charge at Liverpool ?
+[2025-06-21 16:01:10] [INFO] Query completed in 58.90 seconds
+[2025-06-21 16:03:41] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 16:03:44] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 16:03:45] [INFO] Running streamed query: Till how many days after a disciplinary decision against a player, can he appeal against it 
+[2025-06-21 16:04:25] [INFO] Query completed in 40.58 seconds
+[2025-06-21 16:13:13] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 16:13:13] [INFO] Running streamed query: What kit colours does Liverpool have
+[2025-06-21 16:13:46] [INFO] Query completed in 32.51 seconds
+[2025-06-21 18:48:37] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 18:48:54] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 18:48:59] [INFO] Running streamed query: What are the rules about post match interviews 
+[2025-06-21 18:49:25] [INFO] Query completed in 26.07 seconds
+[2025-06-21 18:50:09] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 18:50:09] [INFO] Running streamed query: Does it say anything about Virtual Assistant Referee (VAR)
+[2025-06-21 18:50:32] [INFO] Query completed in 23.12 seconds
+[2025-06-21 18:52:03] [INFO] Building QA chain with mistral
+[2025-06-21 18:52:07] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 18:52:18] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 18:52:18] [INFO] Running streamed query: Can you summarize the rules about match safety form e 
+[2025-06-21 18:52:33] [INFO] Query completed in 15.04 seconds
+[2025-06-21 19:01:20] [INFO] Building QA chain with mistral
+[2025-06-21 19:01:27] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:01:55] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:01:56] [INFO] Running streamed query: Who are the people in charge at Liverpool FC ?
+[2025-06-21 19:02:11] [INFO] Query completed in 15.59 seconds
+[2025-06-21 19:14:13] [INFO] Building QA chain with mistral
+[2025-06-21 19:14:18] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:14:23] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:14:30] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:14:30] [INFO] Running streamed query: Who are the people in charge at Liverpool 
+[2025-06-21 19:14:52] [INFO] Query completed in 22.52 seconds
+[2025-06-21 19:16:38] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:16:38] [INFO] Running streamed query: Who are the people in charge at Liverpool
+[2025-06-21 19:16:47] [INFO] Query completed in 9.05 seconds
+[2025-06-21 19:17:36] [INFO] Building QA chain with mistral
+[2025-06-21 19:17:47] [INFO] Building QA chain with smollm2:360m
+[2025-06-21 19:17:50] [INFO] Building QA chain with smollm2:360m
+[2025-06-21 19:17:51] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-21 19:17:58] [INFO] Query completed in 7.92 seconds
+[2025-06-21 19:18:22] [INFO] Building QA chain with mistral
+[2025-06-21 19:18:28] [INFO] Building QA chain with smollm2:360m
+[2025-06-21 19:18:38] [INFO] Building QA chain with smollm2:360m
+[2025-06-21 19:18:38] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-21 19:18:54] [INFO] Query completed in 16.22 seconds
+[2025-06-21 19:19:52] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:20:03] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:20:03] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-21 19:20:40] [INFO] Query completed in 36.62 seconds
+[2025-06-21 19:21:22] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:21:25] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:22:57] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:22:58] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-21 19:23:20] [INFO] Query completed in 21.35 seconds
+[2025-06-21 19:24:06] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:24:06] [INFO] Running streamed query: Who are the people in charge at Leicester City
+[2025-06-21 19:24:21] [INFO] Query completed in 14.68 seconds
+[2025-06-21 19:24:56] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:24:56] [INFO] Running streamed query: Who are the people in charge at Ipswich Town 
+[2025-06-21 19:25:10] [INFO] Query completed in 14.22 seconds
+[2025-06-21 19:25:43] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:25:43] [INFO] Running streamed query: Can you tell me something about the premier league fixture list 
+[2025-06-21 19:25:51] [INFO] Query completed in 8.22 seconds
+[2025-06-21 19:26:29] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:26:29] [INFO] Running streamed query: Till how long is a player allowed to appeal against a disciplinary decision against him 
+[2025-06-21 19:26:42] [INFO] Query completed in 13.55 seconds
+[2025-06-21 19:27:13] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:27:44] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:27:44] [INFO] Running streamed query: Till how many does is a player allowed to appeal against a disciplinary decision 
+[2025-06-21 19:28:10] [INFO] Query completed in 26.77 seconds
+[2025-06-21 19:29:56] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:30:17] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:30:18] [INFO] Running streamed query: Can you summarize what the rulebook says about youth development 
+[2025-06-21 19:31:16] [INFO] Query completed in 57.76 seconds
+[2025-06-21 19:31:54] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:31:54] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-21 19:32:05] [INFO] Query completed in 11.07 seconds
+[2025-06-21 19:35:02] [INFO] Building QA chain with mistral
+[2025-06-21 19:35:10] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:35:16] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:35:16] [INFO] Running streamed query: Who is Tom Werner 
+[2025-06-21 19:35:30] [INFO] Query completed in 14.74 seconds
+[2025-06-21 19:36:17] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:36:17] [INFO] Running streamed query: Who is the kit manufacturer for Liverpool FC for the 2024/25 premier league season 
+[2025-06-21 19:36:25] [INFO] Query completed in 8.04 seconds
+[2025-06-21 19:37:13] [INFO] Building QA chain with mistral
+[2025-06-21 19:37:21] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:37:32] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:37:33] [INFO] Running streamed query: Who is the kit manufacturer for Liverpool FC 
+[2025-06-21 19:37:36] [INFO] Query completed in 3.51 seconds
+[2025-06-21 19:38:01] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:38:01] [INFO] Running streamed query: Who is the kit manufacturer for Liverpool FC 
+[2025-06-21 19:38:04] [INFO] Query completed in 2.96 seconds
+[2025-06-21 19:38:20] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:38:20] [INFO] Running streamed query: Who are the people in charge at Ipswich FC
+[2025-06-21 19:38:34] [INFO] Query completed in 13.35 seconds
+[2025-06-21 19:38:57] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:38:57] [INFO] Running streamed query: What are the guidelines to appeal against a discplinary action against a player
+[2025-06-21 19:39:23] [INFO] Query completed in 26.01 seconds
+[2025-06-21 19:40:48] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:40:48] [INFO] Running streamed query: What are the guidelines for post-match media conference duties for players 
+[2025-06-21 19:41:06] [INFO] Query completed in 17.96 seconds
+[2025-06-21 19:41:09] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:41:09] [INFO] Running streamed query: What are the guidelines for post-match media conference duties for players
+[2025-06-21 19:41:16] [INFO] Query completed in 7.59 seconds
+[2025-06-21 19:48:20] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:48:38] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:48:38] [INFO] Running streamed query: What are the guidelines for post match media duties for players and managers 
+[2025-06-21 19:48:53] [INFO] Query completed in 14.47 seconds
+[2025-06-21 19:49:24] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:49:24] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-21 19:49:45] [INFO] Query completed in 21.25 seconds
+[2025-06-21 19:50:58] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:50:58] [INFO] Running streamed query: Who are the people in charge at Ipswich Town
+[2025-06-21 19:51:08] [INFO] Query completed in 10.94 seconds
+[2025-06-21 19:51:28] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:51:28] [INFO] Running streamed query: Can you summarize the rules about Youth Development form e 
+[2025-06-21 19:51:39] [INFO] Query completed in 11.04 seconds
+[2025-06-21 19:52:43] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:52:43] [INFO] Running streamed query: Till how many days is a player or a club allowed to appeal against a disciplinary decision
+[2025-06-21 19:53:04] [INFO] Query completed in 21.07 seconds
+[2025-06-21 19:56:22] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:56:22] [INFO] Running streamed query: What's the format and specification under which different youth age groups will play games
+[2025-06-21 19:56:46] [INFO] Query completed in 23.75 seconds
+[2025-06-21 19:57:50] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:57:50] [INFO] Running streamed query: What is defined as an "Amateur Player"
+[2025-06-21 19:58:05] [INFO] Query completed in 15.05 seconds
+[2025-06-21 19:59:16] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:59:16] [INFO] Running streamed query: Are there any referees from Liverpool
+[2025-06-21 19:59:22] [INFO] Query completed in 6.25 seconds
+[2025-06-21 19:59:37] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:59:43] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:59:49] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 19:59:49] [INFO] Running streamed query: Are there any referees from Liverpool 
+[2025-06-21 20:00:18] [INFO] Query completed in 29.43 seconds
+[2025-06-21 20:00:42] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:00:50] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:00:50] [INFO] Running streamed query: Are there any referees from Liverpool 
+[2025-06-21 20:01:29] [INFO] Query completed in 38.74 seconds
+[2025-06-21 20:05:12] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:05:12] [INFO] Running streamed query: What are the guidelines for radio broadcasters
+[2025-06-21 20:05:45] [INFO] Query completed in 32.58 seconds
+[2025-06-21 20:34:54] [INFO] Building QA chain with mistral
+[2025-06-21 20:35:03] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:35:16] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:35:16] [INFO] Running streamed query: What are the pitch dimension for Liverpool
+[2025-06-21 20:35:29] [INFO] Query completed in 12.66 seconds
+[2025-06-21 20:35:37] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:36:01] [INFO] Building QA chain with mistral
+[2025-06-21 20:36:10] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:36:23] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:36:23] [INFO] Running streamed query: What are the pitch dimension at Liverpool FC 
+[2025-06-21 20:36:34] [INFO] Query completed in 10.32 seconds
+[2025-06-21 20:37:37] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:39:33] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:39:51] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:39:51] [INFO] Running streamed query: What are the guidelines for the press and media
+[2025-06-21 20:40:08] [INFO] Query completed in 16.10 seconds
+[2025-06-21 20:40:38] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:40:51] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:40:51] [INFO] Running streamed query: What are the guidelines for the press and the media ? 
+[2025-06-21 20:40:59] [INFO] Query completed in 8.08 seconds
+[2025-06-21 20:41:18] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:41:28] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 20:41:28] [INFO] Running streamed query: What are the guidelines for the press and the media ? 
+[2025-06-21 20:42:06] [INFO] Query completed in 37.85 seconds
+[2025-06-21 20:42:57] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:15:35] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:15:55] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:15:58] [INFO] Running streamed query: Who are the people in charge at Liverpool 
+[2025-06-21 23:16:26] [INFO] Query completed in 28.42 seconds
+[2025-06-21 23:17:38] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:17:38] [INFO] Running streamed query: Who is the kit manufacturer of Liveprool 
+[2025-06-21 23:17:43] [INFO] Query completed in 5.80 seconds
+[2025-06-21 23:18:09] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:18:15] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:18:24] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:18:24] [INFO] Running streamed query: Who is the kit manufacturer of Liverpool 
+[2025-06-21 23:18:41] [INFO] Query completed in 17.63 seconds
+[2025-06-21 23:19:13] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:19:13] [INFO] Running streamed query: What are the guidelines to appeal against a disciplinary actio n
+[2025-06-21 23:19:51] [INFO] Query completed in 38.41 seconds
+[2025-06-21 23:23:41] [INFO] Building QA chain with mistral
+[2025-06-21 23:23:48] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:24:05] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:24:05] [INFO] Running streamed query: Tell me some details about Liverpool FC
+[2025-06-21 23:25:05] [INFO] Query completed in 60.19 seconds
+[2025-06-21 23:25:33] [INFO] Building QA chain with mistral
+[2025-06-21 23:25:43] [INFO] Building QA chain with mistral
+[2025-06-21 23:25:43] [INFO] Running streamed query: Tell me some detail about Liverpool FC
+[2025-06-21 23:27:59] [INFO] Query completed in 135.23 seconds
+[2025-06-21 23:28:36] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:28:56] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:29:02] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:29:02] [INFO] Running streamed query: Tell me something about Liverpool FC
+[2025-06-21 23:29:24] [INFO] Query completed in 22.13 seconds
+[2025-06-21 23:30:46] [INFO] Building QA chain with mistral
+[2025-06-21 23:31:10] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:31:20] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:31:20] [INFO] Running streamed query: Tell me details about Liverpool FC
+[2025-06-21 23:32:10] [INFO] Query completed in 50.11 seconds
+[2025-06-21 23:35:42] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:35:59] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:35:59] [INFO] Running streamed query: Tell me something about Liverpool FC 
+[2025-06-21 23:36:25] [INFO] Query completed in 26.31 seconds
+[2025-06-21 23:37:39] [INFO] Building QA chain with mistral
+[2025-06-21 23:37:56] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:38:05] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:38:05] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-21 23:38:23] [INFO] Query completed in 17.54 seconds
+[2025-06-21 23:39:16] [INFO] Building QA chain with mistral
+[2025-06-21 23:39:22] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:39:30] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:39:31] [INFO] Running streamed query: Who are the people in charge at Liveprool FC
+[2025-06-21 23:39:58] [INFO] Query completed in 27.10 seconds
+[2025-06-21 23:40:45] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:40:55] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:40:55] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-21 23:41:26] [INFO] Query completed in 31.39 seconds
+[2025-06-21 23:42:08] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:42:17] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:42:17] [INFO] Running streamed query: List the people in charge at Liverpool FC
+[2025-06-21 23:42:30] [INFO] Query completed in 13.15 seconds
+[2025-06-21 23:43:44] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:43:44] [INFO] Running streamed query: List the people in charge at Tottenham Hotspurs
+[2025-06-21 23:44:22] [INFO] Query completed in 38.16 seconds
+[2025-06-21 23:45:18] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:45:18] [INFO] Running streamed query: Regulations for radio broadcasters
+[2025-06-21 23:45:53] [INFO] Query completed in 34.53 seconds
+[2025-06-21 23:46:18] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:46:18] [INFO] Running streamed query: Who is Arne Slot 
+[2025-06-21 23:46:28] [INFO] Query completed in 10.45 seconds
+[2025-06-21 23:48:37] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:48:37] [INFO] Running streamed query: Till how long can a club appeal against a decision 
+[2025-06-21 23:48:50] [INFO] Query completed in 13.03 seconds
+[2025-06-21 23:58:16] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:58:16] [INFO] Running streamed query: What do the regulations say about post match media duties for the players and coaches 
+[2025-06-21 23:58:31] [INFO] Query completed in 14.42 seconds
+[2025-06-21 23:59:15] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:59:15] [INFO] Running streamed query: What's the fixture for the first gameweek of the season
+[2025-06-21 23:59:24] [INFO] Query completed in 9.76 seconds
+[2025-06-21 23:59:49] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-21 23:59:49] [INFO] Running streamed query: What is the last gameweek of the season 
+[2025-06-21 23:59:56] [INFO] Query completed in 6.91 seconds
+[2025-06-22 00:01:10] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 00:01:10] [INFO] Running streamed query: What are the fixtures for the last gameweek of the season 
+[2025-06-22 00:01:32] [INFO] Query completed in 21.94 seconds
+[2025-06-22 00:06:03] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 00:06:03] [INFO] Running streamed query: What happens when a promoted clubs gets into a dispute with the EFL
+[2025-06-22 00:06:32] [INFO] Query completed in 28.67 seconds
+[2025-06-22 00:07:19] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 00:07:19] [INFO] Running streamed query: What are the regulations for changing rooms ? 
+[2025-06-22 00:08:01] [INFO] Query completed in 42.15 seconds
+[2025-06-22 00:09:48] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 00:09:49] [INFO] Running streamed query: What are the specificationsrequired to play a match (such as field size,ball size etc)
+[2025-06-22 00:10:17] [INFO] Query completed in 28.60 seconds
+[2025-06-22 00:11:31] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 00:11:31] [INFO] Running streamed query: What are the guidelines for a club that gets promoted and for ones that get relegated ?
+[2025-06-22 00:12:25] [INFO] Query completed in 54.16 seconds
+[2025-06-22 00:13:44] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 00:13:51] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 00:14:39] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 00:14:39] [INFO] Running streamed query: What do the guidelines say about 
+profit and sustainability rules
+[2025-06-22 00:14:49] [INFO] Query completed in 9.65 seconds
+[2025-06-22 00:42:21] [INFO] Building QA chain with mistral
+[2025-06-22 00:42:27] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 00:42:45] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 00:42:54] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 00:42:54] [INFO] Running streamed query: What are the guidelines for concussion substitutes in the premier league
+[2025-06-22 00:43:32] [INFO] Query completed in 38.00 seconds
+[2025-06-22 00:44:59] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 00:44:59] [INFO] Running streamed query: What are the guidelines for camera orientations 
+[2025-06-22 00:45:33] [INFO] Query completed in 34.59 seconds
+[2025-06-22 00:49:09] [INFO] Building QA chain with mistral
+[2025-06-22 00:50:18] [INFO] Building QA chain with mistral
+[2025-06-22 00:50:18] [INFO] Running streamed query: What are the guidelines for camera orientations ?
+[2025-06-22 00:50:24] [INFO] Building QA chain with mistral
+[2025-06-22 00:50:33] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 00:50:36] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 00:50:36] [INFO] Running streamed query: What are the guidelines for camera orientations 
+[2025-06-22 00:53:05] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 00:53:16] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 00:53:16] [INFO] Running streamed query: What are the guidelines for camera orientations ? 
+[2025-06-22 00:55:08] [INFO] Query completed in 111.56 seconds
+[2025-06-22 01:00:18] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:00:18] [INFO] Running streamed query: What are the guidelines for financial fraud 
+[2025-06-22 01:00:33] [INFO] Query completed in 14.75 seconds
+[2025-06-22 01:01:10] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:01:10] [INFO] Running streamed query: How many points are you awarded for a win, a draw and a loss respectively in the Premier League ? 
+[2025-06-22 01:01:21] [INFO] Query completed in 10.43 seconds
+[2025-06-22 01:02:06] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 01:02:21] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 01:02:21] [INFO] Running streamed query: What are the guidelines for media duties 
+[2025-06-22 01:04:21] [INFO] Query completed in 120.75 seconds
+[2025-06-22 01:05:49] [INFO] Building QA chain with mistral
+[2025-06-22 01:05:55] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 01:05:58] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 01:05:58] [INFO] Running streamed query: What are the guidelines for media duties
+[2025-06-22 01:06:13] [INFO] Query completed in 14.88 seconds
+[2025-06-22 01:14:21] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 01:14:21] [INFO] Running streamed query: Guidelines for premier league winning team
+[2025-06-22 01:14:58] [INFO] Query completed in 37.41 seconds
+[2025-06-22 01:16:28] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 01:16:39] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 01:16:39] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-22 01:17:01] [INFO] Query completed in 22.45 seconds
+[2025-06-22 01:22:47] [INFO] Building QA chain with mistral
+[2025-06-22 01:22:53] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:23:10] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:23:10] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-22 01:23:24] [INFO] Query completed in 13.65 seconds
+[2025-06-22 01:23:53] [INFO] Building QA chain with mistral
+[2025-06-22 01:24:05] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:24:15] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:24:15] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-22 01:24:18] [INFO] Query completed in 2.92 seconds
+[2025-06-22 01:25:03] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:25:03] [INFO] Running streamed query: who are the people in charge at Manchester City
+[2025-06-22 01:25:31] [INFO] Query completed in 27.53 seconds
+[2025-06-22 01:26:15] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:26:15] [INFO] Running streamed query: Who are the people in charge at Manchester United
+[2025-06-22 01:26:28] [INFO] Query completed in 12.97 seconds
+[2025-06-22 01:27:53] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:27:57] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:28:10] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:28:10] [INFO] Running streamed query: List the people in charge at Liverpool FC
+[2025-06-22 01:28:44] [INFO] Query completed in 34.21 seconds
+[2025-06-22 01:29:00] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:29:10] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:29:10] [INFO] Running streamed query: Who are the people in charge at Ipswich Town FC
+[2025-06-22 01:29:17] [INFO] Query completed in 7.32 seconds
+[2025-06-22 01:29:38] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:29:38] [INFO] Running streamed query: What are the guidelines for camera angles 
+[2025-06-22 01:30:03] [INFO] Query completed in 24.91 seconds
+[2025-06-22 01:31:01] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:31:01] [INFO] Running streamed query: What is the procedure for appealing against a disciplinary decision 
+[2025-06-22 01:31:28] [INFO] Query completed in 27.01 seconds
+[2025-06-22 01:33:38] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:33:44] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:34:22] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:34:22] [INFO] Running streamed query: Till how many days is a player allowed to appeal against a discplinary
+[2025-06-22 01:34:38] [INFO] Query completed in 16.24 seconds
+[2025-06-22 01:38:34] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:38:41] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:38:57] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:38:57] [INFO] Running streamed query: Till how many days can a player appeal against a disciplinary infraction
+[2025-06-22 01:39:05] [INFO] Query completed in 8.78 seconds
+[2025-06-22 01:39:42] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:40:09] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:40:09] [INFO] Running streamed query: Till how many days is a player allowed to appeal against a disciplinary infraction
+[2025-06-22 01:40:12] [INFO] Query completed in 2.67 seconds
+[2025-06-22 01:40:50] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:40:50] [INFO] Running streamed query: Who is the head coach of Liverpool FC
+[2025-06-22 01:41:01] [INFO] Query completed in 11.56 seconds
+[2025-06-22 01:41:22] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:41:22] [INFO] Running streamed query: Who are the people in charge at Manchester City 
+[2025-06-22 01:41:46] [INFO] Query completed in 24.26 seconds
+[2025-06-22 01:43:44] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:43:59] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:43:59] [INFO] Running streamed query: Who are the people in charge at Manchester United 
+[2025-06-22 01:44:15] [INFO] Query completed in 16.00 seconds
+[2025-06-22 01:45:36] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:46:01] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:46:01] [INFO] Running streamed query: Who are the people in charge at Manchester United 
+[2025-06-22 01:46:06] [INFO] Query completed in 5.12 seconds
+[2025-06-22 01:46:58] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:47:06] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:47:26] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:47:26] [INFO] Running streamed query: Who are the people in charge at Manchester United 
+[2025-06-22 01:47:32] [INFO] Query completed in 5.68 seconds
+[2025-06-22 01:52:13] [INFO] Building QA chain with mistral
+[2025-06-22 01:52:23] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:52:38] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:52:38] [INFO] Running streamed query: Who are the people in charge at Wolverhampton Wanderers 
+[2025-06-22 01:52:44] [INFO] Query completed in 6.40 seconds
+[2025-06-22 01:53:20] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 01:53:20] [INFO] Running streamed query: Who are the people in charge at Liverpool
+[2025-06-22 01:53:26] [INFO] Query completed in 5.87 seconds
+[2025-06-22 02:00:45] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:00:57] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:00:57] [INFO] Running streamed query: Who are the people in charge at Manchester United 
+[2025-06-22 02:01:04] [INFO] Query completed in 7.79 seconds
+[2025-06-22 02:01:45] [INFO] Building QA chain with mistral
+[2025-06-22 02:01:57] [INFO] Building QA chain with mistral
+[2025-06-22 02:02:03] [INFO] Building QA chain with mistral
+[2025-06-22 02:02:03] [INFO] Running streamed query: Who are the people in charge at Manchester United
+[2025-06-22 02:03:51] [INFO] Query completed in 107.54 seconds
+[2025-06-22 02:04:44] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:05:02] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:05:02] [INFO] Running streamed query: Who are the people in charge at Manchester United
+[2025-06-22 02:05:11] [INFO] Query completed in 8.94 seconds
+[2025-06-22 02:05:58] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:05:58] [INFO] Running streamed query: Who are the people in charge at Liverpool 
+[2025-06-22 02:06:04] [INFO] Query completed in 5.79 seconds
+[2025-06-22 02:10:10] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:10:16] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:10:25] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:10:25] [INFO] Running streamed query: Who is in charge at Manchester United 
+[2025-06-22 02:10:33] [INFO] Query completed in 7.60 seconds
+[2025-06-22 02:11:55] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:12:07] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:12:15] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:12:15] [INFO] Running streamed query: Who is in charge at Brighton and Hove albion
+[2025-06-22 02:12:23] [INFO] Query completed in 8.60 seconds
+[2025-06-22 02:13:07] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:13:22] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:13:22] [INFO] Running streamed query: Who is in charge at Brighton and Hove albion 
+[2025-06-22 02:13:25] [INFO] Query completed in 3.25 seconds
+[2025-06-22 02:14:04] [INFO] Building QA chain with mistral
+[2025-06-22 02:14:08] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:14:21] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:14:21] [INFO] Running streamed query: Who is in charge at Brighton and Hove albion 
+[2025-06-22 02:14:24] [INFO] Query completed in 3.09 seconds
+[2025-06-22 02:15:24] [INFO] Building QA chain with mistral
+[2025-06-22 02:15:28] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:15:33] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:15:43] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:15:43] [INFO] Running streamed query: Who are the people in charge at Brighton and Hove albion 
+[2025-06-22 02:15:49] [INFO] Query completed in 5.63 seconds
+[2025-06-22 02:19:00] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:19:01] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:19:13] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:19:13] [INFO] Running streamed query: Who are the people in charge at Arsenal
+[2025-06-22 02:19:20] [INFO] Query completed in 6.88 seconds
+[2025-06-22 02:22:09] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:22:28] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:22:28] [INFO] Running streamed query: Who are the people in charge at Newcastle United
+[2025-06-22 02:22:44] [INFO] Query completed in 16.69 seconds
+[2025-06-22 02:23:42] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:23:47] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:23:54] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:23:54] [INFO] Running streamed query: Who are the people in charge at Crystal Palace
+[2025-06-22 02:24:00] [INFO] Query completed in 6.30 seconds
+[2025-06-22 02:24:26] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:24:26] [INFO] Running streamed query: What are the guidelines for camera angles
+[2025-06-22 02:24:46] [INFO] Query completed in 19.17 seconds
+[2025-06-22 02:27:25] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:27:25] [INFO] Running streamed query: Who are the people in charge at Liverpool 
+[2025-06-22 02:27:32] [INFO] Query completed in 6.84 seconds
+[2025-06-22 02:29:55] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 02:29:55] [INFO] Running streamed query: What are the guidelines for relegation
+[2025-06-22 02:30:09] [INFO] Query completed in 13.92 seconds
+[2025-06-22 06:15:38] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:16:46] [INFO] Building QA chain with mistral
+[2025-06-22 06:17:11] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:17:15] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:17:35] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:17:35] [INFO] Running streamed query: What are the guidelines about Camera orientations 
+[2025-06-22 06:17:53] [INFO] Query completed in 18.34 seconds
+[2025-06-22 06:18:35] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:18:35] [INFO] Running streamed query: Who are the people in charge at Liverpool
+[2025-06-22 06:18:45] [INFO] Query completed in 10.25 seconds
+[2025-06-22 06:19:08] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:19:08] [INFO] Running streamed query: Who is their kit manufacturer 
+[2025-06-22 06:19:13] [INFO] Query completed in 5.90 seconds
+[2025-06-22 06:19:35] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:19:35] [INFO] Running streamed query: Are you sure ?
+[2025-06-22 06:19:39] [INFO] Query completed in 3.58 seconds
+[2025-06-22 06:20:16] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:20:16] [INFO] Running streamed query: When do Liverpool play 
+[2025-06-22 06:20:26] [INFO] Query completed in 10.15 seconds
+[2025-06-22 06:21:20] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:21:20] [INFO] Running streamed query: Who will they play 
+[2025-06-22 06:21:23] [INFO] Query completed in 3.00 seconds
+[2025-06-22 06:21:45] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:21:45] [INFO] Running streamed query: Who are their head coaches respectively
+[2025-06-22 06:21:56] [INFO] Query completed in 11.61 seconds
+[2025-06-22 06:30:05] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:30:08] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:30:39] [INFO] Building QA chain with mistral
+[2025-06-22 06:30:39] [INFO] Building Conversational QA chain with mistral
+[2025-06-22 06:30:44] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:32:17] [INFO] Building QA chain with mistral
+[2025-06-22 06:32:17] [INFO] Building Conversational QA chain with mistral
+[2025-06-22 06:32:24] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:32:24] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:32:44] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:32:44] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:32:44] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-22 06:33:08] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:33:08] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:33:12] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:33:12] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:33:21] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:33:21] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:33:21] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-22 06:35:24] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:35:26] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:35:26] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:35:36] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:35:36] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:35:36] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-22 06:38:27] [INFO] Building QA chain with mistral
+[2025-06-22 06:38:27] [INFO] Building Conversational QA chain with mistral
+[2025-06-22 06:43:36] [INFO] Building QA chain with mistral
+[2025-06-22 06:44:19] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:44:19] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:44:27] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:44:27] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:44:37] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:44:37] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:44:37] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-22 06:46:28] [INFO] Building QA chain with mistral
+[2025-06-22 06:46:28] [INFO] Building Conversational QA chain with mistral
+[2025-06-22 06:46:35] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:46:35] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:46:42] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:46:42] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:46:42] [INFO] Running streamed query: Who are the people in charge at Liverpool
+[2025-06-22 06:48:16] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:48:16] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:48:22] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:48:22] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:48:35] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:48:35] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:48:35] [INFO] Running streamed query: Who are the people in charge at Liverpoll 
+[2025-06-22 06:49:57] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:49:57] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:50:05] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:50:05] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:50:21] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 06:50:21] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 06:50:21] [INFO] Running streamed query: Who are the people in charge at Liverpool 
+[2025-06-22 07:05:30] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:05:30] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:05:44] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:05:44] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:05:44] [INFO] Running streamed query: What is liverpool fc's kit colours
+[2025-06-22 07:14:24] [INFO] Building QA chain with mistral
+[2025-06-22 07:14:26] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:14:26] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:14:35] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:14:35] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:14:47] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:14:47] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:14:47] [INFO] Running streamed query: What are the kit colours of Liverpool FC
+[2025-06-22 07:15:23] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:15:23] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:15:23] [INFO] Running streamed query: What are their dimensions 
+[2025-06-22 07:18:24] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:18:24] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:18:35] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:18:35] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:18:35] [INFO] Running streamed query: What are the kit colours of Liverpool 
+[2025-06-22 07:19:02] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:19:02] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:19:02] [INFO] Running streamed query: What about now
+[2025-06-22 07:20:43] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:20:45] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:20:45] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:21:03] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:21:03] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:21:03] [INFO] Running streamed query: What are the kit colours of Liverpool FC
+[2025-06-22 07:23:52] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:23:52] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:23:55] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:23:55] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:24:04] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:24:04] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:24:04] [INFO] Running streamed query: What are the kit colours of Liverpool 
+[2025-06-22 07:27:23] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:27:23] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:27:33] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:27:33] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:27:33] [INFO] Running streamed query: What are the kit colours of Liverpool FC
+[2025-06-22 07:28:03] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:28:03] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:28:03] [INFO] Running streamed query: What about Tottenham 
+[2025-06-22 07:31:04] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:31:04] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:31:20] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:31:20] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:31:20] [INFO] Running streamed query: Liverpool kit colours
+[2025-06-22 07:32:16] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:32:16] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:32:24] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:32:24] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:32:24] [INFO] Running streamed query: Liverpool kit colours
+[2025-06-22 07:32:35] [INFO] Query completed in 10.61 seconds
+[2025-06-22 07:36:23] [INFO] Building QA chain with mistral
+[2025-06-22 07:36:23] [INFO] Building Conversational QA chain with mistral
+[2025-06-22 07:36:30] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:36:30] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:36:38] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:36:38] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:36:38] [INFO] Running streamed query: Liverpool kit colours
+[2025-06-22 07:38:50] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:38:50] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:38:53] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:38:53] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:38:59] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:38:59] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:38:59] [INFO] Running streamed query: Liverpool kit colours
+[2025-06-22 07:40:23] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:40:23] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:40:33] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:40:33] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:40:34] [INFO] Running streamed query: liverpool kit colours
+[2025-06-22 07:44:42] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:44:42] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:44:54] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:44:54] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:44:54] [INFO] Running streamed query: Liverpool kit colours
+[2025-06-22 07:49:16] [INFO] Building QA chain with mistral
+[2025-06-22 07:49:19] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:49:19] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:49:40] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:49:40] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:49:44] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:49:44] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:49:50] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:49:50] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:49:50] [INFO] Running streamed query: What are Liverpool kit colours
+[2025-06-22 07:56:39] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:56:41] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:56:41] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:56:59] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 07:56:59] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 07:56:59] [INFO] Running streamed query: Liverpool kit colours
+[2025-06-22 08:01:32] [INFO] Building QA chain with mistral
+[2025-06-22 08:01:32] [INFO] Building Conversational QA chain with mistral
+[2025-06-22 08:01:35] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 08:01:35] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 08:01:42] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 08:01:42] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 08:01:47] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 08:01:47] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 08:01:47] [INFO] Running streamed query: Liverpool kit colours
+[2025-06-22 08:02:35] [INFO] Building QA chain with mistral
+[2025-06-22 08:02:35] [INFO] Building Conversational QA chain with mistral
+[2025-06-22 08:02:41] [INFO] Building QA chain with mistral
+[2025-06-22 08:02:41] [INFO] Building Conversational QA chain with mistral
+[2025-06-22 08:02:41] [INFO] Running streamed query: Liverpool kit colours
+[2025-06-22 08:03:00] [INFO] Building QA chain with mistral
+[2025-06-22 08:03:00] [INFO] Building Conversational QA chain with mistral
+[2025-06-22 08:03:04] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 08:03:04] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 08:03:10] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 08:03:10] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 08:03:10] [INFO] Running streamed query: liverpool kit colours
+[2025-06-22 08:04:02] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 08:04:02] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 08:04:10] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 08:04:10] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 08:04:10] [INFO] Running streamed query: Liverpool kit colours
+[2025-06-22 08:04:40] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 08:04:40] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 08:04:40] [INFO] Running streamed query: liverpool kit colours
+[2025-06-22 18:19:49] [INFO] Building QA chain with mistral
+[2025-06-22 18:21:14] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 18:21:14] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 18:21:25] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 18:21:25] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 18:21:33] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 18:21:33] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 18:21:33] [INFO] Running streamed query: Who are the people in charge at Liverpool 
+[2025-06-22 19:46:35] [INFO] Building QA chain with mistral
+[2025-06-22 19:46:35] [INFO] Building Conversational QA chain with mistral
+[2025-06-22 19:47:12] [INFO] Building QA chain with mistral
+[2025-06-22 19:47:12] [INFO] Building Conversational QA chain with mistral
+[2025-06-22 19:47:14] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 19:47:14] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 19:47:28] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 19:47:28] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 19:47:28] [INFO] Running streamed query: What kit does Liverpool wear
+[2025-06-22 19:52:45] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 19:52:45] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 19:52:55] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 19:52:55] [INFO] Building Conversational QA chain with smollm2:360m
+[2025-06-22 19:52:55] [INFO] Running streamed query: Who are the people in charge at liverpool 
+[2025-06-22 20:24:42] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:24:46] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:27:31] [INFO] Building QA chain with mistral
+[2025-06-22 20:28:50] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:30:15] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:30:58] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:31:32] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:31:48] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:32:50] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:32:52] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:33:01] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:34:46] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:34:50] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:35:01] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:35:43] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:35:54] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:36:35] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:37:54] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:38:47] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:40:42] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:42:25] [INFO] Building QA chain with mistral
+[2025-06-22 20:43:31] [INFO] Building QA chain with mistral
+[2025-06-22 20:43:35] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:43:44] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:45:20] [INFO] Building QA chain with mistral
+[2025-06-22 20:45:26] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:45:33] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:46:06] [INFO] Building QA chain with mistral
+[2025-06-22 20:46:14] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:46:18] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:46:27] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:48:01] [INFO] Building QA chain with mistral
+[2025-06-22 20:48:05] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:48:20] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:48:20] [INFO] Running streamed query: Who are the people in charge at Liverpool 
+[2025-06-22 20:48:28] [INFO] Query completed in 8.29 seconds
+[2025-06-22 20:48:35] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:48:35] [INFO] Running streamed query: Who is their head coach
+[2025-06-22 20:48:42] [INFO] Query completed in 6.99 seconds
+[2025-06-22 20:49:19] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:49:29] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:49:53] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:50:14] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:52:14] [INFO] Building QA chain with mistral
+[2025-06-22 20:52:32] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:52:41] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:53:04] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:53:39] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 20:54:09] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 21:12:58] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 21:13:01] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 21:13:11] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 21:14:18] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 21:19:22] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 21:19:28] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 21:19:37] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 21:20:00] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 21:20:19] [INFO] Building QA chain with smollm2:360m
+[2025-06-22 21:40:15] [INFO] Building QA chain with mistral
+[2025-06-22 21:40:38] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 21:40:44] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 21:40:44] [INFO] Running streamed query: Who are the people in charge at Liverpool 
+[2025-06-22 21:41:31] [INFO] Query completed in 47.31 seconds
+[2025-06-22 21:41:51] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 21:41:51] [INFO] Running streamed query: What are the guidelines for camera angles
+[2025-06-22 21:43:24] [INFO] Query completed in 93.64 seconds
+[2025-06-22 21:44:10] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 21:44:10] [INFO] Running streamed query: What are guidelines for post match and pre match media duties for players and coaches
+[2025-06-22 21:45:14] [INFO] Query completed in 64.42 seconds
+[2025-06-22 21:47:33] [INFO] Building QA chain with mistral
+[2025-06-22 21:47:34] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 21:47:52] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 21:47:52] [INFO] Running streamed query: camera angles
+[2025-06-22 21:48:25] [INFO] Query completed in 33.13 seconds
+[2025-06-22 21:51:06] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 21:51:06] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-22 21:51:57] [INFO] Query completed in 50.65 seconds
+[2025-06-22 21:52:49] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 21:52:49] [INFO] Running streamed query: Who are the people in charge at Tottenham 
+[2025-06-22 21:54:05] [INFO] Query completed in 76.31 seconds
+[2025-06-22 21:54:48] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 21:55:03] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 21:55:03] [INFO] Running streamed query: Who are the people in charge at Brighton 
+[2025-06-22 21:56:22] [INFO] Query completed in 79.45 seconds
+[2025-06-22 21:56:43] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 21:56:43] [INFO] Running streamed query: Who are the people in charge at West Ham
+[2025-06-22 21:57:54] [INFO] Query completed in 71.78 seconds
+[2025-06-22 21:58:25] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 21:58:40] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 22:06:43] [INFO] Building QA chain with mistral
+[2025-06-22 22:06:51] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 22:07:00] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 22:07:00] [INFO] Running streamed query: Who are the people in charge at Wolverhamption Wanderers
+[2025-06-22 22:08:07] [INFO] Query completed in 66.44 seconds
+[2025-06-22 22:08:19] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 22:08:29] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 22:14:02] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-22 22:18:40] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 00:32:24] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 00:32:35] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 00:32:35] [INFO] Running streamed query: Who are the people in charge at Liverpool FC
+[2025-06-23 00:37:44] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 00:38:11] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 00:38:12] [INFO] Running streamed query: Who are the people in charge at Liverpool 
+[2025-06-23 00:43:20] [INFO] Building QA chain with mistral
+[2025-06-23 00:44:27] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 00:44:39] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 00:44:39] [INFO] Running streamed query: who are the people in charge of Liverpool FC
+[2025-06-23 00:48:21] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 00:48:31] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 00:48:31] [INFO] Running streamed query: Who are the people in charge of Liverpool 
+[2025-06-23 00:49:23] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 00:49:33] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 00:49:33] [INFO] Running streamed query: Who are the people in charge of Liverpool 
+[2025-06-23 00:56:37] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:01:53] [INFO] Building QA chain with mistral
+[2025-06-23 01:02:35] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:05:07] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:05:17] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:05:17] [INFO] Running streamed query: kij
+[2025-06-23 01:05:18] [INFO] Query completed in 1.31 seconds
+[2025-06-23 01:05:34] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:05:34] [INFO] Running streamed query: Who are the people in charge at Liverpool 
+[2025-06-23 01:05:37] [INFO] Query completed in 3.29 seconds
+[2025-06-23 01:05:54] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:05:54] [INFO] Running streamed query: What are the guidelines for camera orientations 
+[2025-06-23 01:05:55] [INFO] Query completed in 0.95 seconds
+[2025-06-23 01:06:17] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:06:17] [INFO] Running streamed query: What are the rules about post match media duties for players and coaches
+[2025-06-23 01:06:18] [INFO] Query completed in 1.16 seconds
+[2025-06-23 01:06:40] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:06:40] [INFO] Running streamed query: Who are the people in charge of Brighton and hove albion
+[2025-06-23 01:06:42] [INFO] Query completed in 2.12 seconds
+[2025-06-23 01:06:57] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:07:04] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:07:04] [INFO] Running streamed query: Who are the people in charge of West Ham United 
+[2025-06-23 01:07:06] [INFO] Query completed in 2.31 seconds
+[2025-06-23 01:07:25] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:07:25] [INFO] Running streamed query: What are the guidelines for appealing against a disciplinary decision
+[2025-06-23 01:07:26] [INFO] Query completed in 1.12 seconds
+[2025-06-23 01:07:39] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:07:54] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:07:54] [INFO] Running streamed query: What are the guidelines for appealing against a disciplinary action
+[2025-06-23 01:07:57] [INFO] Query completed in 3.05 seconds
+[2025-06-23 01:08:28] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:08:28] [INFO] Running streamed query: Who are the people in charge at Southampton Football Club
+[2025-06-23 01:08:30] [INFO] Query completed in 2.12 seconds
+[2025-06-23 01:08:51] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:08:51] [INFO] Running streamed query: What's the fixture list for the 2024/25 season
+[2025-06-23 01:08:57] [INFO] Query completed in 5.80 seconds
+[2025-06-23 01:09:22] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:09:22] [INFO] Running streamed query: What does the rulebook say about youth development
+[2025-06-23 01:09:24] [INFO] Query completed in 1.75 seconds
+[2025-06-23 01:10:07] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:10:07] [INFO] Running streamed query: What does the rule say about the champions 
+[2025-06-23 01:10:08] [INFO] Query completed in 1.84 seconds
+[2025-06-23 01:10:51] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:10:51] [INFO] Running streamed query: Who are the people in charge at Wolverhampton Wanderers
+[2025-06-23 01:10:54] [INFO] Query completed in 3.49 seconds
+[2025-06-23 01:11:31] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:11:31] [INFO] Running streamed query: Till how many days, is a player allowed to appeal against a disciplinary action against him 
+[2025-06-23 01:11:33] [INFO] Query completed in 2.06 seconds
+[2025-06-23 01:11:49] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:11:49] [INFO] Running streamed query: What are the rules for TV broadcasters
+[2025-06-23 01:11:53] [INFO] Query completed in 3.56 seconds
+[2025-06-23 01:14:11] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:14:18] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:14:18] [INFO] Running streamed query: What are the rules for TV broadcasters
+[2025-06-23 01:14:21] [INFO] Query completed in 2.98 seconds
+[2025-06-23 01:14:46] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:14:46] [INFO] Running streamed query: Who are the people in charge of Newcastle United 
+[2025-06-23 01:14:49] [INFO] Query completed in 2.36 seconds
+[2025-06-23 01:15:19] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:15:19] [INFO] Running streamed query: Who is the kit manufacturer of Liverpool 
+[2025-06-23 01:15:20] [INFO] Query completed in 1.26 seconds
+[2025-06-23 01:27:25] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:27:40] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:29:34] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:30:20] [INFO] Building QA chain with mistral
+[2025-06-23 01:30:22] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:30:26] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:31:08] [INFO] Building QA chain with mistral
+[2025-06-23 01:31:16] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:31:44] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:31:55] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:32:12] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:32:34] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:32:51] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:33:17] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:33:45] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:34:21] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:34:31] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 01:34:56] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:20:14] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:20:53] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:21:06] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:22:38] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:22:49] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:23:09] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:23:26] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:23:41] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:23:55] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:24:45] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:25:22] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:26:00] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:26:22] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:26:36] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:26:56] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:27:13] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:27:31] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:27:48] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 02:27:53] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 02:28:00] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 02:28:48] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 02:35:34] [INFO] Building QA chain with mistral
+[2025-06-23 02:35:42] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 02:35:50] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 02:41:28] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 02:42:00] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 02:42:12] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 02:42:26] [INFO] Building QA chain with mistral
+[2025-06-23 02:42:41] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 02:44:06] [INFO] Building QA chain with mistral
+[2025-06-23 02:45:53] [INFO] Building QA chain with mistral
+[2025-06-23 02:46:04] [INFO] Building QA chain with qwen2.5:latest
+[2025-06-23 02:49:27] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 02:49:38] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 02:50:10] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 02:50:22] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 02:50:38] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 02:50:42] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 02:50:50] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 02:53:42] [INFO] Building QA chain with mistral
+[2025-06-23 02:53:45] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:53:48] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:54:03] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:54:15] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:54:31] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:54:43] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:55:00] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 02:55:17] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 03:02:25] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 03:28:07] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 03:28:24] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 03:29:22] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 03:29:40] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 03:29:40] [INFO] Running streamed query: Who are the people in charge of Liverpool 
+[2025-06-23 03:29:41] [INFO] Query completed in 1.46 seconds
+[2025-06-23 03:30:01] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 03:30:01] [INFO] Running streamed query: Who are their kit manufacturers?
+[2025-06-23 03:30:02] [INFO] Query completed in 0.97 seconds
+[2025-06-23 03:30:22] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 03:30:22] [INFO] Running streamed query: Who is their shirt sponsor
+[2025-06-23 03:30:23] [INFO] Query completed in 0.86 seconds
+[2025-06-23 03:30:40] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 03:30:40] [INFO] Running streamed query: What about Newcastle United 
+[2025-06-23 03:30:42] [INFO] Query completed in 2.07 seconds
+[2025-06-23 03:35:42] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:35:53] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:35:53] [INFO] Running streamed query: Who are the people in charge of Liverpool FC
+[2025-06-23 03:36:04] [INFO] Query completed in 10.28 seconds
+[2025-06-23 03:36:18] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:36:18] [INFO] Running streamed query: What about of Newcastle 
+[2025-06-23 03:36:29] [INFO] Query completed in 11.47 seconds
+[2025-06-23 03:36:59] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:36:59] [INFO] Running streamed query: What are the guidelines for camera anles
+[2025-06-23 03:37:18] [INFO] Query completed in 18.95 seconds
+[2025-06-23 03:37:28] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:37:39] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:38:34] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:38:42] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:39:04] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:39:29] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:39:46] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:43:04] [INFO] Building QA chain with mistral
+[2025-06-23 03:43:18] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:43:27] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:43:48] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:44:09] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:45:24] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 03:45:39] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:05:53] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:06:17] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:13:27] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:14:17] [INFO] Building QA chain with mistral
+[2025-06-23 04:14:26] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 04:14:36] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 04:16:18] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 04:16:29] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 04:16:43] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 04:17:01] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 04:17:16] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 04:17:36] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:17:50] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:19:10] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:20:31] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:21:49] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:23:53] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:29:41] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:31:25] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:32:14] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:44:03] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:52:33] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:53:42] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:54:40] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:56:03] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:57:27] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 04:58:04] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 06:37:36] [INFO] Building QA chain with mistral
+[2025-06-23 06:38:29] [INFO] Building QA chain with mistral
+[2025-06-23 06:38:34] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:38:39] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:38:46] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:38:48] [INFO] Query successfully executed in 1750640926.3195684
+[2025-06-23 06:38:59] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:39:00] [INFO] Query successfully executed in 1750640939.069892
+[2025-06-23 06:39:08] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:39:13] [INFO] Query successfully executed in 1750640948.6244452
+[2025-06-23 06:39:27] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:39:29] [INFO] Query successfully executed in 1750640967.3539712
+[2025-06-23 06:39:52] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:39:55] [INFO] Query successfully executed in 1750640992.940198
+[2025-06-23 06:40:20] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:40:23] [INFO] Query successfully executed in 1750641020.83147
+[2025-06-23 06:41:07] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:41:10] [INFO] Query successfully executed in 1750641067.8997066
+[2025-06-23 06:41:21] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:41:24] [INFO] Query successfully executed in 1750641081.801977
+[2025-06-23 06:41:34] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:41:37] [INFO] Query successfully executed in 1750641094.4238265
+[2025-06-23 06:41:47] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:41:51] [INFO] Query successfully executed in 1750641107.835261
+[2025-06-23 06:42:07] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:42:09] [INFO] Query successfully executed in 1750641127.239224
+[2025-06-23 06:42:18] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:42:21] [INFO] Query successfully executed in 1750641139.0187013
+[2025-06-23 06:42:32] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:42:35] [INFO] Query successfully executed in 1750641152.516183
+[2025-06-23 06:42:44] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:42:46] [INFO] Query successfully executed in 1750641164.4045248
+[2025-06-23 06:42:57] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:42:59] [INFO] Query successfully executed in 1750641177.261969
+[2025-06-23 06:43:05] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:43:08] [INFO] Query successfully executed in 1750641185.6622996
+[2025-06-23 06:43:12] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:43:14] [INFO] Query successfully executed in 1750641192.2275946
+[2025-06-23 06:43:31] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:43:34] [INFO] Query successfully executed in 1750641211.8763988
+[2025-06-23 06:43:43] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:43:45] [INFO] Query successfully executed in 1750641223.5188859
+[2025-06-23 06:43:54] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:43:55] [INFO] Query successfully executed in 1750641234.4739535
+[2025-06-23 06:44:09] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:44:11] [INFO] Query successfully executed in 1750641249.8049314
+[2025-06-23 06:44:17] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 06:44:18] [INFO] Query successfully executed in 1750641257.1402621
+[2025-06-23 08:05:12] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 08:05:14] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 08:05:16] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 08:05:27] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 08:05:29] [INFO] Query successfully executed in 1750646127.9381042
+[2025-06-23 08:08:59] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 08:09:02] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 08:09:07] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 08:09:07] [INFO] Running streamed query: Who is in charge at Liverpool 
+[2025-06-23 08:09:10] [INFO] Query completed in 2.43 seconds
+[2025-06-23 08:09:24] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 08:09:26] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 08:09:30] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 08:09:32] [INFO] Query successfully executed in 1.4990432262420654 seconds
+[2025-06-23 08:09:54] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 08:09:57] [INFO] Query successfully executed in 2.415653705596924 seconds
+[2025-06-23 08:10:13] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 08:10:16] [INFO] Query successfully executed in 2.445051431655884 seconds
+[2025-06-23 08:10:22] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 08:10:29] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 08:10:47] [INFO] Query successfully executed in 17.713350772857666 seconds
+[2025-06-23 08:11:08] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 08:11:16] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 08:11:31] [INFO] Query successfully executed in 14.821365118026733 seconds
+[2025-06-23 08:11:59] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 08:12:12] [INFO] Query successfully executed in 13.453883647918701 seconds
+[2025-06-23 08:12:33] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 08:12:41] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 08:12:52] [INFO] Query successfully executed in 11.281585931777954 seconds
+[2025-06-23 08:13:20] [INFO] Building QA chain with smollm2:1.7b
+[2025-06-23 08:13:41] [INFO] Query successfully executed in 20.893508434295654 seconds
+[2025-06-23 08:24:33] [INFO] Building QA chain with mistral
+[2025-06-23 09:36:33] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:36:33] [INFO] Building QA chain with mistral
+[2025-06-23 09:36:47] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:36:50] [INFO] Query successfully executed in 3.033473491668701 seconds
+[2025-06-23 09:37:03] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:37:05] [INFO] Query successfully executed in 2.0845327377319336 seconds
+[2025-06-23 09:37:28] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:37:31] [INFO] Query successfully executed in 2.860499382019043 seconds
+[2025-06-23 09:38:24] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:38:28] [INFO] Query successfully executed in 4.004341125488281 seconds
+[2025-06-23 09:38:52] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:38:56] [INFO] Query successfully executed in 3.764732599258423 seconds
+[2025-06-23 09:39:48] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:39:50] [INFO] Query successfully executed in 1.8998947143554688 seconds
+[2025-06-23 09:40:52] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:41:10] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:41:11] [INFO] Query successfully executed in 1.3833742141723633 seconds
+[2025-06-23 09:41:44] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:41:46] [INFO] Query successfully executed in 1.796036958694458 seconds
+[2025-06-23 09:42:24] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:42:27] [INFO] Query successfully executed in 2.6812586784362793 seconds
+[2025-06-23 09:42:59] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 09:43:31] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 09:43:47] [INFO] Query successfully executed in 16.12778615951538 seconds
+[2025-06-23 09:44:09] [INFO] Building QA chain with mistral
+[2025-06-23 09:44:12] [INFO] Building QA chain with mistral
+[2025-06-23 09:44:22] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 09:44:39] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 09:44:39] [INFO] Running streamed query: What happens if a club gets promoted to the premier league but runs into some disputes with the EFL
+[2025-06-23 09:44:45] [INFO] Query completed in 5.13 seconds
+[2025-06-23 09:45:18] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 09:45:18] [INFO] Running streamed query: Who is the manager of Liverpool 
+[2025-06-23 09:45:22] [INFO] Query completed in 3.87 seconds
+[2025-06-23 09:45:44] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 09:45:44] [INFO] Running streamed query: What about the head coach
+[2025-06-23 09:45:49] [INFO] Query completed in 4.30 seconds
+[2025-06-23 09:45:58] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 09:46:01] [INFO] Building QA chain with mistral
+[2025-06-23 09:46:05] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 09:46:09] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 09:46:40] [INFO] Building QA chain with smollm2:360m
+[2025-06-23 09:46:45] [INFO] Query successfully executed in 4.75251317024231 seconds
+[2025-06-23 09:47:01] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:47:09] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:47:10] [INFO] Query successfully executed in 0.9669578075408936 seconds
+[2025-06-23 09:47:24] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:47:30] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:47:31] [INFO] Query successfully executed in 0.9236690998077393 seconds
+[2025-06-23 09:47:58] [INFO] Building QA chain with mistral
+[2025-06-23 09:48:03] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:48:10] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:48:16] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:48:18] [INFO] Query successfully executed in 2.3276588916778564 seconds
+[2025-06-23 09:48:31] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:48:32] [INFO] Query successfully executed in 0.9742584228515625 seconds
+[2025-06-23 09:50:39] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:50:42] [INFO] Query successfully executed in 2.7390730381011963 seconds
+[2025-06-23 09:51:10] [INFO] Building QA chain with mistral
+[2025-06-23 09:51:14] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:51:16] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:51:25] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:51:29] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:51:35] [INFO] Building QA chain with falcon-7b-instruct
+[2025-06-23 09:51:37] [INFO] Query successfully executed in 2.363879680633545 seconds

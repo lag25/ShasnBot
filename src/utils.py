@@ -8,7 +8,7 @@ import os
 import logging
 import os
 
-def setup_logger(name="RAGDemo", level=logging.INFO, log_to_file=False, file_path="logs/app.log"):
+def setup_logger(name="RAGDemo", level=logging.INFO, log_to_file=False, file_path="logs/app.log",):
     logger = logging.getLogger(name)
     logger.setLevel(level)
 
